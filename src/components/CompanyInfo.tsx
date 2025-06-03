@@ -1,6 +1,6 @@
 
 import { Section } from "./Section";
-import { Award, BarChart3, MessageSquare, Users } from "lucide-react";
+import { BarChart3, MessageSquare, Users } from "lucide-react";
 
 export const CompanyInfo = () => {
   return (
@@ -15,11 +15,6 @@ export const CompanyInfo = () => {
           <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal">
             Conheça a <span className="text-climb-orange">Climb Up</span>
           </h2>
-        </div>
-        
-        <div className="bg-climb-orange text-white p-6 rounded-lg inline-block mb-8">
-          <Award className="w-12 h-12 mx-auto mb-2" />
-          <p className="font-satoshi font-bold text-xl">🚀 Parceira oficial da Meta</p>
         </div>
         
         <p className="font-source-sans text-xl text-climb-eerie mb-8">
@@ -47,7 +42,7 @@ export const CompanyInfo = () => {
         </div>
         
         <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange text-center">
-          <Award className="w-12 h-12 text-climb-orange mb-4 mx-auto" />
+          <MessageSquare className="w-12 h-12 text-climb-orange mb-4 mx-auto" />
           <div className="text-3xl font-bold text-climb-gunmetal mb-2">100%</div>
           <p className="font-source-sans text-climb-eerie">suporte humano</p>
         </div>

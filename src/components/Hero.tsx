@@ -40,8 +40,8 @@ export const Hero = () => {
             
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
               <MessageSquare className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
-              <h3 className="font-satoshi font-bold text-climb-gunmetal mb-2">1 cliente a cada</h3>
-              <p className="font-source-sans text-climb-eerie">25 contatos reaproveitados</p>
+              <h3 className="font-satoshi font-bold text-climb-gunmetal mb-2">1/25 vendas</h3>
+              <p className="font-source-sans text-climb-eerie">A cada 25 reaproveitados 1 venda</p>
             </div>
           </div>
 
