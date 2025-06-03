@@ -7,6 +7,15 @@ export const Hero = () => {
     <div className="bg-gradient-to-br from-climb-white to-climb-platinum min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto px-4 py-20">
         <div className="text-center animate-fade-in-up">
+          {/* Logo da Climb Up */}
+          <div className="mb-8">
+            <img 
+              src="/lovable-uploads/f5e07684-5855-45ed-a9eb-1e77f3f975b6.png" 
+              alt="Climb Up Logo" 
+              className="h-16 mx-auto mb-6"
+            />
+          </div>
+
           <h1 className="font-satoshi text-5xl md:text-7xl font-bold text-climb-gunmetal mb-6">
             Transforme o WhatsApp da sua empresa em uma{" "}
             <span className="text-climb-orange">máquina de vendas</span>

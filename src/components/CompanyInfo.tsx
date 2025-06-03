@@ -6,9 +6,16 @@ export const CompanyInfo = () => {
   return (
     <Section>
       <div className="text-center mb-12">
-        <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal mb-6">
-          Conheça a <span className="text-climb-orange">Climb Up</span>
-        </h2>
+        <div className="flex items-center justify-center mb-6">
+          <img 
+            src="/lovable-uploads/05d6dd8c-90aa-4b38-baae-a15e97483f08.png" 
+            alt="Climb Up Icon" 
+            className="h-12 w-12 mr-4"
+          />
+          <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal">
+            Conheça a <span className="text-climb-orange">Climb Up</span>
+          </h2>
+        </div>
         
         <div className="bg-climb-orange text-white p-6 rounded-lg inline-block mb-8">
           <Award className="w-12 h-12 mx-auto mb-2" />
