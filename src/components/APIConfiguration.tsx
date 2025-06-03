@@ -1,42 +1,42 @@
 
 import { Section } from "./Section";
 import { CTAButton } from "./CTAButton";
-import { CheckCircle, Settings } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 
 export const APIConfiguration = () => {
   const features = [
-    "Cadastro da empresa na Meta",
-    "Criação da conta oficial de WhatsApp",
+    "Verificação e cadastro na Meta",
+    "Criação da conta WABA",
     "Validação do número",
-    "Integração com a Climb Up",
-    "Suporte técnico + orientação estratégica"
+    "Conexão pronta com Climb Up",
+    "Suporte técnico completo"
   ];
 
   return (
-    <Section background="light">
+    <Section background="dark">
       <div className="text-center mb-12">
-        <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
-          E mais: <span className="text-climb-orange">Configuração completa</span> da API oficial
+        <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-white mb-6">
+          E mais... <span className="text-climb-orange">Configuração Completa da API</span>
         </h2>
+        
+        <p className="font-source-sans text-xl text-white mb-12">
+          Configuração completa da API oficial da Meta feita por nós. Você não precisa se preocupar com nada técnico.
+        </p>
       </div>
 
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
-        <Settings className="w-16 h-16 text-climb-orange mb-6 mx-auto" />
-        
-        <div className="grid md:grid-cols-2 gap-6 mb-8">
-          {features.map((feature, index) => (
-            <div key={index} className="flex items-center">
-              <CheckCircle className="w-6 h-6 text-climb-orange mr-3 flex-shrink-0" />
-              <p className="font-source-sans text-lg text-climb-eerie">{feature}</p>
-            </div>
-          ))}
-        </div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
+        {features.map((feature, index) => (
+          <div key={index} className="bg-climb-gunmetal p-6 rounded-lg text-center border border-climb-platinum">
+            <CheckCircle className="w-12 h-12 text-climb-orange mb-4 mx-auto" />
+            <p className="font-source-sans text-white text-sm">{feature}</p>
+          </div>
+        ))}
+      </div>
 
-        <div className="text-center">
-          <CTAButton>
-            VENDER SEM DOR DE CABEÇA
-          </CTAButton>
-        </div>
+      <div className="text-center">
+        <CTAButton>
+          VENDER SEM DOR DE CABEÇA
+        </CTAButton>
       </div>
     </Section>
   );
