@@ -1,12 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Hero } from "@/components/Hero";
+import { ProblemSection } from "@/components/ProblemSection";
+import { SolutionFlow } from "@/components/SolutionFlow";
+import { CaseStudy } from "@/components/CaseStudy";
+import { WhatsAppAdvantages } from "@/components/WhatsAppAdvantages";
+import { CompanyInfo } from "@/components/CompanyInfo";
+import { LossIndicators } from "@/components/LossIndicators";
+import { VideoDemo } from "@/components/VideoDemo";
+import { Comparison } from "@/components/Comparison";
+import { Testimonials } from "@/components/Testimonials";
+import { Pricing } from "@/components/Pricing";
+import { FinalCTA } from "@/components/FinalCTA";
+import { FAQ } from "@/components/FAQ";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen font-source-sans">
+      <Hero />
+      <ProblemSection />
+      <SolutionFlow />
+      <CaseStudy />
+      <WhatsAppAdvantages />
+      <CompanyInfo />
+      <LossIndicators />
+      <VideoDemo />
+      <Comparison />
+      <Testimonials />
+      <Pricing />
+      <FinalCTA />
+      <FAQ />
     </div>
   );
 };
