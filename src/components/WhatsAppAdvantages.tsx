@@ -19,10 +19,10 @@ export const WhatsAppAdvantages = () => {
             Seu cliente está lá
           </h3>
           <div className="text-4xl font-bold text-climb-orange mb-4">96%</div>
-          <p className="font-source-sans text-climb-eerie mb-4">
+          <p className="font-open-sans text-climb-eerie mb-4">
             dos brasileiros usam WhatsApp todos os dias
           </p>
-          <p className="font-source-sans text-sm text-climb-eerie">
+          <p className="font-open-sans text-sm text-climb-eerie">
             📌 Fonte: Opinion Box
           </p>
         </div>
@@ -33,10 +33,10 @@ export const WhatsAppAdvantages = () => {
             Altíssima taxa de leitura
           </h3>
           <div className="text-4xl font-bold text-climb-orange mb-4">90%</div>
-          <p className="font-source-sans text-climb-eerie mb-4">
+          <p className="font-open-sans text-climb-eerie mb-4">
             das mensagens são lidas em até 5 minutos
           </p>
-          <p className="font-source-sans text-sm text-climb-eerie">
+          <p className="font-open-sans text-sm text-climb-eerie">
             📌 Fonte: Mobile Time
           </p>
         </div>
@@ -47,10 +47,10 @@ export const WhatsAppAdvantages = () => {
             Conversa direta e pessoal
           </h3>
           <div className="text-2xl font-bold text-climb-orange mb-4">1x1</div>
-          <p className="font-source-sans text-climb-eerie mb-4">
+          <p className="font-open-sans text-climb-eerie mb-4">
             gera confiança e aumenta a conversão
           </p>
-          <p className="font-source-sans text-sm text-climb-eerie">
+          <p className="font-open-sans text-sm text-climb-eerie">
             📌 Fonte: Zendesk
           </p>
         </div>

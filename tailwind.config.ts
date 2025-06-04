@@ -75,7 +75,7 @@ export default {
 			},
 			fontFamily: {
 				'satoshi': ['Satoshi', 'sans-serif'],
-				'source-sans': ['Source Sans Pro', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

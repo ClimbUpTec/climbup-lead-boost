@@ -15,12 +15,11 @@ export const SolutionFlow = () => {
         {/* Etapa 1 */}
         <div className="bg-climb-gunmetal p-8 rounded-lg shadow-lg flex-1">
           <div className="flex items-center justify-center mb-4">
-            <div className="bg-black text-white px-4 py-2 rounded-lg flex items-center">
-              <span className="text-lg font-bold mr-2">ADS</span>
-              <div className="w-6 h-6 border-2 border-white rounded-full flex items-center justify-center">
-                <div className="w-2 h-2 bg-white rounded-full"></div>
-              </div>
-            </div>
+            <img 
+              src="/lovable-uploads/5a03da4f-477e-45fa-8c7b-0dff221bcc4d.png" 
+              alt="ADS Icon" 
+              className="w-16 h-16"
+            />
           </div>
           <h3 className="font-satoshi font-bold text-xl text-white text-center mb-4">
             Canais de aquisição
@@ -38,15 +37,22 @@ export const SolutionFlow = () => {
 
         {/* Etapa 2 */}
         <div className="bg-white border-2 border-climb-platinum p-8 rounded-lg shadow-lg flex-1">
-          <div className="w-12 h-12 mb-4 mx-auto bg-climb-orange rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-lg">C</span>
+          <div className="flex items-center justify-center mb-4">
+            <img 
+              src="/lovable-uploads/4bdafa93-f59e-4049-8483-781d4d494b1d.png" 
+              alt="Climb Up Logo" 
+              className="w-12 h-12"
+            />
           </div>
           <h3 className="font-satoshi font-bold text-xl text-climb-gunmetal text-center mb-4">
             Climb Up em ação
           </h3>
           <div className="text-center text-climb-gunmetal">
             <div className="text-sm mb-2">
-              <strong>Remarketing</strong> para a mesma base com campanhas automáticas no <strong>WhatsApp</strong>
+              <strong>Remarketing inteligente para base</strong>
+            </div>
+            <div className="text-sm">
+              Impacte centenas de leads através de campanhas no <strong>WhatsApp</strong>
             </div>
           </div>
         </div>
@@ -58,15 +64,17 @@ export const SolutionFlow = () => {
         {/* Etapa 3 */}
         <div className="bg-climb-gunmetal p-8 rounded-lg shadow-lg flex-1">
           <div className="flex items-center justify-center mb-4">
-            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-              <span className="text-climb-gunmetal text-2xl font-bold">$</span>
-            </div>
+            <img 
+              src="/lovable-uploads/22e1c39b-e5be-4d91-8c50-169634ca9cb9.png" 
+              alt="Success Icon" 
+              className="w-12 h-12 invert"
+            />
           </div>
-          <h3 className="font-satoshi font-bold text-xl text-white text-center mb-4">
+          <h3 className="font-satoshi font-bold text-xl text-climb-orange text-center mb-4">
             Resultado R$
           </h3>
           <div className="text-center">
-            <div className="text-2xl font-bold text-white mb-2">+30 novas vendas</div>
+            <div className="text-2xl font-bold text-climb-orange mb-2">+30 novas vendas</div>
           </div>
         </div>
       </div>

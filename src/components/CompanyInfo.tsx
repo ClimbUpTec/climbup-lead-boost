@@ -9,29 +9,29 @@ export const CompanyInfo = () => {
           Quem Somos
         </h2>
         
-        <p className="font-source-sans text-xl text-white mb-12">
-          A Climb Up é parceira oficial da Meta e transformamos seu WhatsApp em canal de vendas escalável.
+        <p className="font-open-sans text-xl text-white mb-12">
+          A Climb Up transformamos seu WhatsApp em canal de vendas escalável.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center">
             <div className="text-5xl font-bold text-climb-orange mb-2">+200</div>
-            <p className="font-source-sans text-white">empresas ativas</p>
+            <p className="font-open-sans text-white">empresas ativas</p>
           </div>
           
           <div className="text-center">
             <div className="text-5xl font-bold text-climb-orange mb-2">+2Mi</div>
-            <p className="font-source-sans text-white">mensagens/mês</p>
+            <p className="font-open-sans text-white">mensagens/mês</p>
           </div>
           
           <div className="text-center">
             <div className="text-5xl font-bold text-climb-orange mb-2">+200k</div>
-            <p className="font-source-sans text-white">interações reais/mês</p>
+            <p className="font-open-sans text-white">interações reais/mês</p>
           </div>
           
           <div className="text-center">
             <div className="text-5xl font-bold text-climb-orange mb-2">100%</div>
-            <p className="font-source-sans text-white">suporte humano</p>
+            <p className="font-open-sans text-white">suporte humano</p>
           </div>
         </div>
       </div>

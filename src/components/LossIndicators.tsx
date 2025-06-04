@@ -25,7 +25,7 @@ export const LossIndicators = () => {
           <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
             <div className="flex items-start">
               <AlertTriangle className="w-6 h-6 text-red-500 mr-3 mt-1 flex-shrink-0" />
-              <p className="font-source-sans text-climb-eerie">{indicator}</p>
+              <p className="font-open-sans text-climb-eerie">{indicator}</p>
             </div>
           </div>
         ))}

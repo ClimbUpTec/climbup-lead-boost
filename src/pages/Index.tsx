@@ -2,6 +2,7 @@
 import { Hero } from "@/components/Hero";
 import { ProblemSection } from "@/components/ProblemSection";
 import { SolutionFlow } from "@/components/SolutionFlow";
+import { RemarketingSection } from "@/components/RemarketingSection";
 import { CaseStudy } from "@/components/CaseStudy";
 import { WhatsAppAdvantages } from "@/components/WhatsAppAdvantages";
 import { CompanyInfo } from "@/components/CompanyInfo";
@@ -16,10 +17,11 @@ import { FAQ } from "@/components/FAQ";
 
 const Index = () => {
   return (
-    <div className="min-h-screen font-source-sans">
+    <div className="min-h-screen font-open-sans">
       <Hero />
       <ProblemSection />
       <SolutionFlow />
+      <RemarketingSection />
       <CaseStudy />
       <WhatsAppAdvantages />
       <CompanyInfo />

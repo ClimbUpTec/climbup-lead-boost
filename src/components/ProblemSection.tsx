@@ -20,13 +20,13 @@ export const ProblemSection = () => {
         </h2>
         
         <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto mb-12">
-          <p className="font-source-sans text-xl text-climb-eerie mb-4">
+          <p className="font-open-sans text-xl text-climb-eerie mb-4">
             📊 Estudos mostram que um lead só se converte entre o 3º e o 13º contato.
           </p>
-          <p className="font-source-sans text-xl text-climb-eerie mb-4">
+          <p className="font-open-sans text-xl text-climb-eerie mb-4">
             Na prática, a maioria das empresas tenta no máximo 2 vezes — e perde vendas todos os dias.
           </p>
-          <p className="font-source-sans text-sm text-climb-eerie">
+          <p className="font-open-sans text-sm text-climb-eerie">
             📝 Fonte: Salesforce Research / LinkedIn B2B Reports
           </p>
         </div>
@@ -41,7 +41,7 @@ export const ProblemSection = () => {
           <div key={index} className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-red-500">
             <div className="flex items-start">
               <X className="w-6 h-6 text-red-500 mr-3 mt-1 flex-shrink-0" />
-              <p className="font-source-sans text-climb-eerie">{problem}</p>
+              <p className="font-open-sans text-climb-eerie">{problem}</p>
             </div>
           </div>
         ))}

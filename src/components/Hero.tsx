@@ -21,7 +21,7 @@ export const Hero = () => {
             <span className="text-climb-orange">máquina de vendas</span>
           </h1>
           
-          <p className="font-source-sans text-xl md:text-2xl text-climb-eerie mb-8 max-w-4xl mx-auto">
+          <p className="font-open-sans text-xl md:text-2xl text-climb-eerie mb-8 max-w-4xl mx-auto">
             Venda até <strong className="text-climb-orange">300% mais</strong> com campanhas via WhatsApp — simples, rápido e comprovado.
           </p>
 
@@ -29,19 +29,19 @@ export const Hero = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
               <TrendingUp className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
               <h3 className="font-satoshi font-bold text-climb-gunmetal mb-2">3x mais conversão</h3>
-              <p className="font-source-sans text-climb-eerie">que outros canais</p>
+              <p className="font-open-sans text-climb-eerie">que outros canais</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
               <Target className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
               <h3 className="font-satoshi font-bold text-climb-gunmetal mb-2">17x ROAS</h3>
-              <p className="font-source-sans text-climb-eerie">comprovado</p>
+              <p className="font-open-sans text-climb-eerie">comprovado</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
               <MessageSquare className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
               <h3 className="font-satoshi font-bold text-climb-gunmetal mb-2">1/25 vendas</h3>
-              <p className="font-source-sans text-climb-eerie">A cada 25 reaproveitados 1 venda</p>
+              <p className="font-open-sans text-climb-eerie">A cada 25 reaproveitados 1 venda</p>
             </div>
           </div>
 

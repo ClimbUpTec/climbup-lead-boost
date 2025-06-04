@@ -19,7 +19,7 @@ export const APIConfiguration = () => {
           E mais... <span className="text-climb-orange">Configuração Completa da API</span>
         </h2>
         
-        <p className="font-source-sans text-xl text-white mb-12">
+        <p className="font-open-sans text-xl text-white mb-12">
           Configuração completa da API oficial da Meta feita por nós. Você não precisa se preocupar com nada técnico.
         </p>
       </div>
@@ -28,7 +28,7 @@ export const APIConfiguration = () => {
         {features.map((feature, index) => (
           <div key={index} className="bg-climb-gunmetal p-6 rounded-lg text-center border border-climb-platinum">
             <CheckCircle className="w-12 h-12 text-climb-orange mb-4 mx-auto" />
-            <p className="font-source-sans text-white text-sm">{feature}</p>
+            <p className="font-open-sans text-white text-sm">{feature}</p>
           </div>
         ))}
       </div>

@@ -27,7 +27,7 @@ export const FinalCTA = () => {
         {features.map((feature, index) => (
           <div key={index} className="bg-white p-4 rounded-lg shadow-lg flex items-center">
             <Check className="w-6 h-6 text-green-500 mr-3 flex-shrink-0" />
-            <span className="font-source-sans text-climb-eerie">{feature}</span>
+            <span className="font-open-sans text-climb-eerie">{feature}</span>
           </div>
         ))}
       </div>

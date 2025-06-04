@@ -12,7 +12,7 @@ export const CaseStudy = () => {
           <h2 className="font-satoshi text-3xl font-bold text-climb-gunmetal mb-6">
             Resultados imediatos
           </h2>
-          <p className="font-source-sans text-xl text-climb-eerie mb-8">
+          <p className="font-open-sans text-xl text-climb-eerie mb-8">
             📈 <strong>O Felipe da Comfy Pizza Napoletana</strong> foi de{" "}
             <span className="text-climb-orange font-bold">R$40 mil para R$90 mil/mês</span>{" "}
             em menos de 3 meses com esse método.
