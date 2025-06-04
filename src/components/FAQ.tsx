@@ -6,11 +6,11 @@ export const FAQ = () => {
   const faqs = [
     {
       question: "Meu número pode ser bloqueado?",
-      answer: "Não! Utilizamos a API oficial da Meta, que garante que seu número nunca seja bloqueado. Diferente das ferramentas não oficiais, nossa plataforma é totalmente segura e aprovada pelo WhatsApp."
+      answer: "Com a API Oficial, seus disparos são realizados de forma autorizada, estruturada e em conformidade com as regras da Meta, o que garante altas taxas de entrega e muito mais segurança em comparação com envios manuais ou ferramentas não oficiais. A API é o único canal aprovado pela Meta para envios em massa, por isso não sofre bloqueios por volume de mensagens, diferente do WhatsApp convencional e Business, que não suportam automações ou grandes quantidades de envio. Seguindo as políticas corretamente, controlamos a qualidade do número, utilizamos segmentações inteligentes e garantimos o envio apenas para clientes com opt-in, o que reduz drasticamente os riscos de bloqueio."
     },
     {
       question: "Preciso instalar algum programa?",
-      answer: "Não é necessário instalar nada! A Climb Up funciona 100% na nuvem através do seu navegador. Você pode acessar de qualquer lugar, a qualquer hora."
+      answer: "Não é necessário instalar nada! A Climb Up funciona 100% na nuvem através do seu navegador. Você pode acessar de qualquer lugar, a qualquer hora. Contamos também com aplicativo para que você possa acessar do seu celular em qualquer lugar."
     },
     {
       question: "É só para WhatsApp?",
@@ -21,7 +21,7 @@ export const FAQ = () => {
   return (
     <Section background="light">
       <div className="text-center mb-12">
-        <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
+        <h2 className="font-open-sans text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
           Perguntas <span className="text-climb-orange">Frequentes</span>
         </h2>
       </div>
@@ -30,10 +30,10 @@ export const FAQ = () => {
         <Accordion type="single" collapsible className="space-y-4">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`} className="bg-white rounded-lg shadow-lg border-none">
-              <AccordionTrigger className="font-satoshi font-bold text-climb-gunmetal px-6 py-4 hover:no-underline">
+              <AccordionTrigger className="font-open-sans font-bold text-climb-gunmetal px-6 py-4 hover:no-underline">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="font-source-sans text-climb-eerie px-6 pb-4">
+              <AccordionContent className="font-open-sans text-climb-eerie px-6 pb-4">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
