@@ -10,7 +10,7 @@ export const CompanyInfo = () => {
         </h2>
         
         <p className="font-inter text-xl text-climb-eerie mb-12">
-          A Climb Up transformamos seu WhatsApp em canal de vendas escalável.
+          A Climb Up é parceira oficial Meta e transforma seu WhatsApp em canal de vendas escalável.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

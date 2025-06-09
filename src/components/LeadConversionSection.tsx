@@ -46,18 +46,18 @@ export const LeadConversionSection = () => {
           
           <div className="flex justify-center">
             <div className="relative">
-              {/* Moldura de alguém segurando o celular */}
+              {/* Mockup do celular */}
               <div className="w-80 h-[600px] bg-gradient-to-b from-gray-100 to-gray-200 rounded-3xl p-6 shadow-2xl">
                 <div className="w-full h-full relative">
                   {/* Mão segurando o celular */}
                   <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-32 h-16 bg-gradient-to-t from-amber-100 to-amber-50 rounded-t-full"></div>
                   
-                  {/* Mockup do celular */}
+                  {/* Mockup do celular com nova imagem */}
                   <div className="w-64 h-[520px] bg-black rounded-[2.5rem] p-2 shadow-2xl mx-auto">
                     <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden">
                       <img 
-                        src="/lovable-uploads/6cdbb77a-b1f3-4c80-b6fb-096f2884c305.png" 
-                        alt="Exemplo de mensagem WhatsApp" 
+                        src="/lovable-uploads/403877fb-b570-4bde-971c-0ea3b76bf2cb.png" 
+                        alt="Exemplo de mensagem WhatsApp da Comfy Pizza" 
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -71,7 +71,7 @@ export const LeadConversionSection = () => {
 
       <div className="text-center">
         <CTAButton>
-          QUERO RESOLVER ISSO AGORA
+          QUERO VENDER MAIS
         </CTAButton>
       </div>
     </Section>
