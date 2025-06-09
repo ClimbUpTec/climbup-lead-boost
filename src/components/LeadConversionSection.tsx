@@ -20,17 +20,40 @@ export const LeadConversionSection = () => {
           Com a Climb Up você vende mais com <span className="text-climb-orange">os mesmos leads</span>
         </h2>
         
-        <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto mb-8">
-          <BarChart3 className="w-16 h-16 text-climb-orange mb-6 mx-auto" />
-          <p className="font-inter text-xl text-climb-eerie mb-6">
-            📊 Estudos mostram que um lead só se converte entre o <strong>3º e o 13º contato</strong>.
-          </p>
-          <p className="font-inter text-lg text-climb-eerie mb-6">
-            Na prática, a maioria das empresas tenta no máximo 2 vezes — e <strong className="text-red-600">perde vendas todos os dias</strong>.
-          </p>
-          <p className="font-inter text-sm text-gray-600">
-            📝 Fonte: Salesforce Research / LinkedIn B2B Reports
-          </p>
+        <div className="grid lg:grid-cols-2 gap-8 items-center max-w-6xl mx-auto mb-8">
+          <div className="bg-white p-8 rounded-lg shadow-lg">
+            <BarChart3 className="w-16 h-16 text-climb-orange mb-6 mx-auto" />
+            <p className="font-inter text-lg text-climb-eerie mb-4">
+              📊 Estudos mostram que um lead só vira cliente entre o <strong>3º e o 13º contato</strong> em vendas complexas.
+            </p>
+            <p className="font-inter text-lg text-climb-eerie mb-4">
+              Em delivery e restaurantes, clientes recorrentes representam até <strong>70% das vendas</strong>.
+            </p>
+            <p className="font-inter text-lg text-climb-eerie mb-4">
+              E reter um cliente pode ser até <strong>5x mais barato</strong> do que conquistar um novo.
+            </p>
+            <p className="font-inter text-lg text-climb-orange font-semibold mb-6">
+              Quem reimpacta, vende mais — e vende de novo.
+            </p>
+            <p className="font-inter text-sm text-gray-600">
+              📝 Fonte: Salesforce Research / LinkedIn B2B Reports / Harvard Business Review / National Restaurant Association (EUA) / Invesp
+            </p>
+          </div>
+          
+          <div className="flex justify-center">
+            <div className="relative">
+              {/* Mockup do celular */}
+              <div className="w-64 h-[520px] bg-black rounded-[2.5rem] p-2 shadow-2xl">
+                <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/6cdbb77a-b1f3-4c80-b6fb-096f2884c305.png" 
+                    alt="Exemplo de mensagem WhatsApp" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

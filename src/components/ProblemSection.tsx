@@ -1,7 +1,7 @@
 
 import { Section } from "./Section";
 import { CTAButton } from "./CTAButton";
-import { ArrowRight, Target, Zap, DollarSign } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const ProblemSection = () => {
   return (
@@ -18,7 +18,11 @@ export const ProblemSection = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 mb-12">
         {/* Card 1 - Canais de aquisição */}
         <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-climb-orange max-w-sm">
-          <Target className="w-12 h-12 text-climb-orange mb-6 mx-auto" />
+          <img 
+            src="/lovable-uploads/cc3eec4f-1f32-4460-bfa8-092576463d6d.png" 
+            alt="Handshake icon" 
+            className="w-12 h-12 mb-6 mx-auto"
+          />
           <h3 className="font-inter font-bold text-2xl text-climb-gunmetal text-center mb-4">
             Canais de aquisição
           </h3>
@@ -39,7 +43,11 @@ export const ProblemSection = () => {
 
         {/* Card 2 - Climb Up em ação */}
         <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-climb-orange max-w-sm">
-          <Zap className="w-12 h-12 text-climb-orange mb-6 mx-auto" />
+          <img 
+            src="/lovable-uploads/fabe5300-6ee1-49fa-a124-8dafb2a80b55.png" 
+            alt="Digital ads icon" 
+            className="w-12 h-12 mb-6 mx-auto"
+          />
           <h3 className="font-inter font-bold text-2xl text-climb-gunmetal text-center mb-4">
             Climb Up em ação
           </h3>
@@ -60,7 +68,11 @@ export const ProblemSection = () => {
 
         {/* Card 3 - Resultado R$ */}
         <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-green-500 max-w-sm">
-          <DollarSign className="w-12 h-12 text-green-500 mb-6 mx-auto" />
+          <img 
+            src="/lovable-uploads/3f0c0b37-1fc8-4be1-a414-4c139a0c3cbc.png" 
+            alt="Results icon" 
+            className="w-12 h-12 mb-6 mx-auto"
+          />
           <h3 className="font-inter font-bold text-2xl text-climb-gunmetal text-center mb-4">
             Resultado R$
           </h3>
