@@ -23,6 +23,8 @@ export default {
 				// Climb Up brand colors
 				'climb-orange': '#FF5B04',
 				'climb-orange-wheel': '#FF7F11', 
+				'climb-orange-light': '#FFB366',
+				'climb-orange-dark': '#E64A00',
 				'climb-gunmetal': '#233038',
 				'climb-eerie': '#232323',
 				'climb-midnight': '#075056',
@@ -73,7 +75,6 @@ export default {
 				}
 			},
 			fontFamily: {
-				'satoshi': ['Satoshi', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
