@@ -1,6 +1,7 @@
 
 import { Hero } from "@/components/Hero";
 import { LeadConversionSection } from "@/components/LeadConversionSection";
+import { ProblemsSection } from "@/components/ProblemsSection";
 import { ProblemSection } from "@/components/ProblemSection";
 import { RemarketingSection } from "@/components/RemarketingSection";
 import { CaseStudy } from "@/components/CaseStudy";
@@ -20,6 +21,7 @@ const Index = () => {
     <div className="min-h-screen font-inter">
       <Hero />
       <LeadConversionSection />
+      <ProblemsSection />
       <ProblemSection />
       <RemarketingSection />
       <CaseStudy />
