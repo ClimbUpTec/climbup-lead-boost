@@ -30,7 +30,7 @@ export const Testimonials = () => {
   return (
     <Section background="light">
       <div className="text-center mb-12">
-        <h2 className="font-open-sans text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
+        <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
           O que nossos <span className="text-climb-orange">clientes dizem</span>
         </h2>
       </div>
@@ -48,10 +48,10 @@ export const Testimonials = () => {
                 />
               </div>
             </div>
-            <h3 className="font-open-sans font-bold text-lg text-climb-gunmetal mb-4 text-center">
+            <h3 className="font-satoshi font-bold text-lg text-climb-gunmetal mb-4 text-center">
               {testimonial.company}
             </h3>
-            <p className="font-open-sans text-climb-eerie italic text-center">
+            <p className="font-inter text-climb-eerie italic text-center">
               "{testimonial.text}"
             </p>
           </div>

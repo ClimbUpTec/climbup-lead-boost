@@ -25,7 +25,6 @@ export default {
 				'climb-orange-wheel': '#FF7F11', 
 				'climb-gunmetal': '#233038',
 				'climb-eerie': '#232323',
-				'climb-platinum': '#D3DDDE',
 				'climb-midnight': '#075056',
 				'climb-white': '#FFFFFF',
 				
@@ -75,7 +74,7 @@ export default {
 			},
 			fontFamily: {
 				'satoshi': ['Satoshi', 'sans-serif'],
-				'open-sans': ['Open Sans', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
