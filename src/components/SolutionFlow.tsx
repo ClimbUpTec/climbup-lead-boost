@@ -1,5 +1,6 @@
 
 import { Section } from "./Section";
+import { Users } from "lucide-react";
 
 export const SolutionFlow = () => {
   return (
@@ -14,14 +15,10 @@ export const SolutionFlow = () => {
         {/* Card 1 */}
         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
           <div className="w-16 h-16 mx-auto mb-4 bg-climb-orange rounded-full flex items-center justify-center">
-            <img 
-              src="/lovable-uploads/cc3eec4f-1f32-4460-bfa8-092576463d6d.png" 
-              alt="Ads Icon" 
-              className="w-10 h-10"
-            />
+            <Users className="w-10 h-10 text-white" />
           </div>
           <h3 className="font-inter text-xl font-bold text-climb-gunmetal mb-3">
-            BASE INATIVA
+            BASE INATIVA = 1000 leads
           </h3>
           <p className="font-inter text-climb-eerie">
             Tráfego pago 1000 leads
@@ -33,12 +30,12 @@ export const SolutionFlow = () => {
           <div className="w-16 h-16 mx-auto mb-4 bg-climb-orange rounded-full flex items-center justify-center">
             <img 
               src="/lovable-uploads/fabe5300-6ee1-49fa-a124-8dafb2a80b55.png" 
-              alt="Climb Up Icon" 
+              alt="WhatsApp Icon" 
               className="w-10 h-10"
             />
           </div>
           <h3 className="font-inter text-xl font-bold text-climb-gunmetal mb-3">
-            REIMPACTO CLIMB UP
+            CLIMB UP EM AÇÃO
           </h3>
           <p className="font-inter text-climb-eerie">
             Enviamos campanhas e ofertas direcionadas
@@ -49,16 +46,16 @@ export const SolutionFlow = () => {
         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
           <div className="w-16 h-16 mx-auto mb-4 bg-climb-orange rounded-full flex items-center justify-center">
             <img 
-              src="/lovable-uploads/6cdbb77a-b1f3-4c80-b6fb-096f2884c305.png" 
-              alt="Money Icon" 
+              src="/lovable-uploads/ec47ee5f-c060-4bf4-be14-bcebbeed41e4.png" 
+              alt="Climb Up Icon" 
               className="w-10 h-10"
             />
           </div>
           <h3 className="font-inter text-xl font-bold text-climb-gunmetal mb-3">
-            RESULTADO
+            R$ RESULTADO
           </h3>
           <p className="font-inter text-climb-eerie">
-            Mais vendas com os mesmos leads
+            +40 novas vendas
           </p>
         </div>
       </div>

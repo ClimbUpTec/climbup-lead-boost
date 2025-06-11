@@ -48,7 +48,7 @@ export const LeadConversionSection = () => {
             <img 
               src="/lovable-uploads/403877fb-b570-4bde-971c-0ea3b76bf2cb.png" 
               alt="Exemplo de mensagem WhatsApp da Comfy Pizza" 
-              className="max-w-full h-auto rounded-lg shadow-lg"
+              className="max-w-sm h-auto rounded-lg shadow-lg"
             />
           </div>
         </div>

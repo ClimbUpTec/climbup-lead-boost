@@ -22,7 +22,7 @@ export const Hero = () => {
           </h1>
           
           <p className="font-inter text-xl md:text-2xl text-climb-eerie mb-8 max-w-4xl mx-auto">
-            Venda até <strong className="text-climb-orange">300% mais</strong> com campanhas via WhatsApp — simples, rápido e comprovado.
+            Venda até <strong className="text-climb-orange">400% mais</strong> com campanhas via WhatsApp — simples, rápido e comprovado.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
