@@ -13,9 +13,9 @@ export const CaseStudy = () => {
             Resultados reais e imediatos
           </h2>
           <div className="flex items-center justify-center mb-6 relative">
-            {/* Mockup redondo com foto do proprietário */}
+            {/* Mockup redondo menor com foto do proprietário */}
             <div className="relative">
-              <div className="w-64 h-64 rounded-full bg-white p-4 shadow-2xl border-4 border-white">
+              <div className="w-32 h-32 rounded-full bg-white p-2 shadow-lg border-2 border-white">
                 <img 
                   src="/lovable-uploads/26e07aac-a641-4d44-a226-04be9fedd06e.png" 
                   alt="Proprietário da Comfy Pizza Napoletana" 
@@ -23,7 +23,7 @@ export const CaseStudy = () => {
                 />
               </div>
               {/* Logo da empresa no canto */}
-              <div className="absolute -bottom-2 -right-2 w-16 h-16 bg-white rounded-full p-2 shadow-lg border-2 border-white">
+              <div className="absolute -bottom-1 -right-1 w-10 h-10 bg-white rounded-full p-1 shadow-lg border border-white">
                 <img 
                   src="/lovable-uploads/3b13e5a8-924f-433a-9022-9303247a6b91.png" 
                   alt="Comfy Pizza Napoletana Logo" 
