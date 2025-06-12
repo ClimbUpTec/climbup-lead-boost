@@ -22,7 +22,7 @@ export const SolutionFlow = () => {
           {/* Funil Visual */}
           <div className="relative">
             {/* Etapa 1 - Topo do funil */}
-            <div className="w-80 h-24 bg-gray-300 flex items-center justify-center text-center" style={{clipPath: 'polygon(10% 0%, 90% 0%, 80% 100%, 20% 100%)'}}>
+            <div className="w-80 h-24 bg-gradient-to-b from-gray-300 to-gray-400 flex items-center justify-center text-center" style={{clipPath: 'polygon(10% 0%, 90% 0%, 80% 100%, 20% 100%)'}}>
               <div>
                 <p className="font-inter font-bold text-gray-800 text-lg">Tráfego pago</p>
                 <p className="font-inter text-gray-700">1000 LEADS</p>
@@ -35,7 +35,7 @@ export const SolutionFlow = () => {
             </div>
             
             {/* Etapa 2 - Meio do funil */}
-            <div className="w-64 h-24 bg-gray-400 flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(15% 0%, 85% 0%, 75% 100%, 25% 100%)'}}>
+            <div className="w-64 h-24 bg-gradient-to-b from-gray-400 to-gray-500 flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(15% 0%, 85% 0%, 75% 100%, 25% 100%)'}}>
               <div>
                 <p className="font-inter font-bold text-gray-800 text-lg">Conversão de 2%</p>
                 <p className="font-inter text-gray-700">20 VENDAS</p>
@@ -48,7 +48,7 @@ export const SolutionFlow = () => {
             </div>
             
             {/* Etapa 3 - Base do funil */}
-            <div className="w-48 h-24 bg-gray-600 flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(20% 0%, 80% 0%, 70% 100%, 30% 100%)'}}>
+            <div className="w-48 h-24 bg-gradient-to-b from-gray-500 to-gray-600 flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(20% 0%, 80% 0%, 70% 100%, 30% 100%)'}}>
               <div>
                 <p className="font-inter font-bold text-white text-lg">Base inativa</p>
                 <p className="font-inter text-gray-200">0 VENDAS</p>
@@ -73,7 +73,7 @@ export const SolutionFlow = () => {
           {/* Funil Visual */}
           <div className="relative">
             {/* Etapa 1 - Topo do funil */}
-            <div className="w-80 h-24 bg-blue-200 flex items-center justify-center text-center" style={{clipPath: 'polygon(10% 0%, 90% 0%, 80% 100%, 20% 100%)'}}>
+            <div className="w-80 h-24 bg-gradient-to-b from-orange-200 to-orange-300 flex items-center justify-center text-center" style={{clipPath: 'polygon(10% 0%, 90% 0%, 80% 100%, 20% 100%)'}}>
               <div>
                 <p className="font-inter font-bold text-gray-800 text-lg">Tráfego pago</p>
                 <p className="font-inter text-gray-700">1000 LEADS</p>
@@ -82,11 +82,11 @@ export const SolutionFlow = () => {
             
             {/* Seta */}
             <div className="flex justify-center my-4">
-              <ArrowRight className="w-8 h-8 text-blue-400 rotate-90" />
+              <ArrowRight className="w-8 h-8 text-climb-orange rotate-90" />
             </div>
             
             {/* Etapa 2 - Meio do funil */}
-            <div className="w-64 h-24 bg-blue-300 flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(15% 0%, 85% 0%, 75% 100%, 25% 100%)'}}>
+            <div className="w-64 h-24 bg-gradient-to-b from-orange-300 to-orange-400 flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(15% 0%, 85% 0%, 75% 100%, 25% 100%)'}}>
               <div>
                 <p className="font-inter font-bold text-gray-800 text-lg">Conversão de 2%</p>
                 <p className="font-inter text-gray-700">20 VENDAS</p>
@@ -95,11 +95,11 @@ export const SolutionFlow = () => {
             
             {/* Seta */}
             <div className="flex justify-center my-4">
-              <ArrowRight className="w-8 h-8 text-blue-400 rotate-90" />
+              <ArrowRight className="w-8 h-8 text-climb-orange rotate-90" />
             </div>
             
             {/* Etapa 3 - Base do funil com Climb Up */}
-            <div className="w-48 h-24 bg-climb-orange flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(20% 0%, 80% 0%, 70% 100%, 30% 100%)'}}>
+            <div className="w-48 h-24 bg-gradient-to-b from-climb-orange to-climb-orange-dark flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(20% 0%, 80% 0%, 70% 100%, 30% 100%)'}}>
               <div>
                 <p className="font-inter font-bold text-white text-sm">Climb Up</p>
                 <p className="font-inter font-bold text-white text-sm">reimpacto via</p>
