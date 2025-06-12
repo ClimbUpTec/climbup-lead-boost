@@ -1,71 +1,130 @@
 
 import { Section } from "./Section";
-import { Users } from "lucide-react";
+import { CTAButton } from "./CTAButton";
+import { TrendingDown, TrendingUp, Users, MousePointer, MessageSquare } from "lucide-react";
 
 export const SolutionFlow = () => {
   return (
     <Section>
       <div className="text-center mb-12">
-        <h2 className="font-open-sans text-4xl md:text-5xl font-bold text-climb-gunmetal mb-6">
-          Agora veja a <span className="text-climb-orange">Climb Up</span> em ação
+        <h2 className="font-inter text-4xl md:text-5xl font-bold text-climb-gunmetal mb-6">
+          Você está perdendo vendas <span className="text-climb-orange">todos os dias sem saber</span>
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8 mb-12">
-        {/* Card 1 */}
-        <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-          <div className="w-16 h-16 mx-auto mb-4 bg-climb-orange rounded-full flex items-center justify-center">
-            <Users className="w-10 h-10 text-white" />
-          </div>
-          <h3 className="font-inter text-xl font-bold text-climb-gunmetal mb-3">
-            BASE INATIVA = 1000 leads
+      <div className="grid lg:grid-cols-2 gap-12 mb-12">
+        {/* Funil Esquerdo - Sem Climb Up */}
+        <div className="bg-white rounded-lg shadow-lg p-8">
+          <h3 className="font-inter text-2xl font-bold text-gray-600 text-center mb-8">
+            Sem Climb Up
           </h3>
-          <p className="font-inter text-climb-eerie">
-            Tráfego pago 1000 leads
-          </p>
+          
+          {/* Etapa 1 */}
+          <div className="flex flex-col items-center mb-6">
+            <div className="w-20 h-20 bg-gray-400 rounded-full flex items-center justify-center mb-4">
+              <MousePointer className="w-10 h-10 text-white" />
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg text-center w-full">
+              <h4 className="font-inter font-bold text-gray-700 mb-2">Tráfego pago</h4>
+              <p className="font-inter text-gray-600">1000 leads chegando</p>
+            </div>
+            <TrendingDown className="w-8 h-8 text-gray-400 my-4" />
+          </div>
+
+          {/* Etapa 2 */}
+          <div className="flex flex-col items-center mb-6">
+            <div className="w-16 h-16 bg-gray-400 rounded-full flex items-center justify-center mb-4">
+              <Users className="w-8 h-8 text-white" />
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg text-center w-full">
+              <h4 className="font-inter font-bold text-gray-700 mb-2">Conversão de 2%</h4>
+              <p className="font-inter text-gray-600">Gera 20 vendas</p>
+            </div>
+            <TrendingDown className="w-8 h-8 text-gray-400 my-4" />
+          </div>
+
+          {/* Etapa 3 */}
+          <div className="flex flex-col items-center mb-6">
+            <div className="w-12 h-12 bg-gray-400 rounded-full flex items-center justify-center mb-4">
+              <span className="text-white font-bold">0</span>
+            </div>
+            <div className="bg-gray-100 p-4 rounded-lg text-center w-full">
+              <h4 className="font-inter font-bold text-gray-700 mb-2">Base inativa</h4>
+              <p className="font-inter text-gray-600">0 vendas</p>
+            </div>
+          </div>
+
+          {/* Total */}
+          <div className="bg-gray-200 p-4 rounded-lg text-center mt-6">
+            <p className="font-inter font-bold text-gray-700 text-lg">
+              Total: 20 vendas com 1000 leads
+            </p>
+          </div>
         </div>
 
-        {/* Card 2 */}
-        <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-          <div className="w-16 h-16 mx-auto mb-4 bg-climb-orange rounded-full flex items-center justify-center">
-            <img 
-              src="/lovable-uploads/fabe5300-6ee1-49fa-a124-8dafb2a80b55.png" 
-              alt="WhatsApp Icon" 
-              className="w-10 h-10"
-            />
-          </div>
-          <h3 className="font-inter text-xl font-bold text-climb-gunmetal mb-3">
-            CLIMB UP EM AÇÃO
+        {/* Funil Direito - Com Climb Up */}
+        <div className="bg-white rounded-lg shadow-lg p-8">
+          <h3 className="font-inter text-2xl font-bold text-climb-orange text-center mb-8">
+            Com Climb Up
           </h3>
-          <p className="font-inter text-climb-eerie">
-            Enviamos campanhas e ofertas direcionadas
-          </p>
-        </div>
+          
+          {/* Etapa 1 */}
+          <div className="flex flex-col items-center mb-6">
+            <div className="w-20 h-20 bg-climb-orange rounded-full flex items-center justify-center mb-4">
+              <MousePointer className="w-10 h-10 text-white" />
+            </div>
+            <div className="bg-orange-50 p-4 rounded-lg text-center w-full border-l-4 border-climb-orange">
+              <h4 className="font-inter font-bold text-climb-gunmetal mb-2">Tráfego pago</h4>
+              <p className="font-inter text-climb-eerie">1000 leads chegando</p>
+            </div>
+            <TrendingUp className="w-8 h-8 text-climb-orange my-4" />
+          </div>
 
-        {/* Card 3 */}
-        <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-          <div className="w-16 h-16 mx-auto mb-4 bg-climb-orange rounded-full flex items-center justify-center">
-            <img 
-              src="/lovable-uploads/ec47ee5f-c060-4bf4-be14-bcebbeed41e4.png" 
-              alt="Climb Up Icon" 
-              className="w-10 h-10"
-            />
+          {/* Etapa 2 */}
+          <div className="flex flex-col items-center mb-6">
+            <div className="w-16 h-16 bg-climb-orange rounded-full flex items-center justify-center mb-4">
+              <Users className="w-8 h-8 text-white" />
+            </div>
+            <div className="bg-orange-50 p-4 rounded-lg text-center w-full border-l-4 border-climb-orange">
+              <h4 className="font-inter font-bold text-climb-gunmetal mb-2">Conversão de 2%</h4>
+              <p className="font-inter text-climb-eerie">20 vendas</p>
+            </div>
+            <TrendingUp className="w-8 h-8 text-climb-orange my-4" />
           </div>
-          <h3 className="font-inter text-xl font-bold text-climb-gunmetal mb-3">
-            R$ RESULTADO
-          </h3>
-          <p className="font-inter text-climb-eerie">
-            +40 novas vendas
-          </p>
+
+          {/* Etapa 3 */}
+          <div className="flex flex-col items-center mb-6">
+            <div className="w-12 h-12 bg-climb-orange rounded-full flex items-center justify-center mb-4">
+              <MessageSquare className="w-6 h-6 text-white" />
+            </div>
+            <div className="bg-orange-50 p-4 rounded-lg text-center w-full border-l-4 border-climb-orange">
+              <h4 className="font-inter font-bold text-climb-gunmetal mb-2">Climb Up reimpacta via WhatsApp (+4%)</h4>
+              <p className="font-inter text-climb-eerie">Gera +40 vendas</p>
+            </div>
+          </div>
+
+          {/* Total */}
+          <div className="bg-climb-orange p-4 rounded-lg text-center mt-6">
+            <p className="font-inter font-bold text-white text-lg">
+              Total: 60 vendas com os mesmos 1000 leads
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="flex justify-center">
-        <img 
-          src="/lovable-uploads/fe192e99-97d3-4439-8303-49db8e821a61.png" 
-          alt="Fluxo Climb Up em ação" 
-          className="max-w-full h-auto"
-        />
+      {/* Parágrafo explicativo */}
+      <div className="bg-gray-50 p-8 rounded-lg mb-8 max-w-4xl mx-auto">
+        <p className="font-inter text-lg text-climb-eerie text-center leading-relaxed">
+          Com os canais de tráfego e atendimento convencionais, você faria em média 20 vendas. 
+          Utilizando a Climb Up com campanhas automáticas no WhatsApp, esse número sobe para{" "}
+          <strong className="text-climb-orange text-xl">60 vendas</strong> — com os mesmos 1000 leads.
+        </p>
+      </div>
+
+      <div className="text-center">
+        <CTAButton>
+          QUERO VENDER MAIS
+        </CTAButton>
       </div>
     </Section>
   );
