@@ -47,8 +47,8 @@ export const SolutionFlow = () => {
               <ArrowRight className="w-8 h-8 text-gray-400 rotate-90" />
             </div>
             
-            {/* Etapa 3 - Base do funil */}
-            <div className="w-48 h-24 bg-gradient-to-b from-gray-500 to-gray-600 flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(20% 0%, 80% 0%, 70% 100%, 30% 100%)'}}>
+            {/* Etapa 3 - Base do funil aumentada */}
+            <div className="w-56 h-32 bg-gradient-to-b from-gray-500 to-gray-600 flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(18% 0%, 82% 0%, 75% 100%, 25% 100%)'}}>
               <div>
                 <p className="font-inter font-bold text-white text-lg">Base inativa</p>
                 <p className="font-inter text-gray-200">0 VENDAS</p>
@@ -57,7 +57,7 @@ export const SolutionFlow = () => {
           </div>
 
           {/* Total */}
-          <div className="bg-gray-500 text-white p-6 rounded-lg mt-6 text-center min-w-[280px]">
+          <div className="bg-gray-500 text-white p-6 rounded-lg mt-6 text-center w-[320px]">
             <p className="font-inter font-bold text-xl">
               Total: 20 vendas<br />com 1000 leads
             </p>
@@ -98,19 +98,18 @@ export const SolutionFlow = () => {
               <ArrowRight className="w-8 h-8 text-climb-orange rotate-90" />
             </div>
             
-            {/* Etapa 3 - Base do funil com Climb Up */}
-            <div className="w-48 h-24 bg-gradient-to-b from-climb-orange to-climb-orange-dark flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(20% 0%, 80% 0%, 70% 100%, 30% 100%)'}}>
+            {/* Etapa 3 - Base do funil com Climb Up aumentada */}
+            <div className="w-56 h-32 bg-gradient-to-b from-climb-orange to-climb-orange-dark flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(18% 0%, 82% 0%, 75% 100%, 25% 100%)'}}>
               <div>
-                <p className="font-inter font-bold text-white text-sm">Climb Up</p>
-                <p className="font-inter font-bold text-white text-sm">reimpacto via</p>
-                <p className="font-inter font-bold text-white text-sm">WhatsApp</p>
-                <p className="font-inter text-orange-100 text-sm">(+4%)</p>
+                <p className="font-inter font-bold text-white text-sm">Base inativa +</p>
+                <p className="font-inter font-bold text-white text-sm">Climb Up 4% =</p>
+                <p className="font-inter font-bold text-white text-sm">+40 VENDAS</p>
               </div>
             </div>
           </div>
 
           {/* Total */}
-          <div className="bg-climb-orange text-white p-6 rounded-lg mt-6 text-center min-w-[280px]">
+          <div className="bg-climb-orange text-white p-6 rounded-lg mt-6 text-center w-[320px]">
             <p className="font-inter font-bold text-xl">
               Total: 60 vendas<br />com os mesmos 1000 leads
             </p>
