@@ -2,7 +2,6 @@
 import { Hero } from "@/components/Hero";
 import { SolutionFlow } from "@/components/SolutionFlow";
 import { ProblemsSection } from "@/components/ProblemsSection";
-import { ProblemSection } from "@/components/ProblemSection";
 import { RemarketingSection } from "@/components/RemarketingSection";
 import { CaseStudy } from "@/components/CaseStudy";
 import { WhatsAppAdvantages } from "@/components/WhatsAppAdvantages";
@@ -22,7 +21,6 @@ const Index = () => {
       <Hero />
       <SolutionFlow />
       <ProblemsSection />
-      <ProblemSection />
       <RemarketingSection />
       <CaseStudy />
       <WhatsAppAdvantages />
