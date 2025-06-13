@@ -9,7 +9,6 @@ import { CaseStudy } from "@/components/CaseStudy";
 import { WhatsAppAdvantages } from "@/components/WhatsAppAdvantages";
 import { CompanyInfo } from "@/components/CompanyInfo";
 import { LossIndicators } from "@/components/LossIndicators";
-import { VideoDemo } from "@/components/VideoDemo";
 import { Comparison } from "@/components/Comparison";
 import { APIConfiguration } from "@/components/APIConfiguration";
 import { Testimonials } from "@/components/Testimonials";
@@ -30,7 +29,6 @@ const Index = () => {
       <WhatsAppAdvantages />
       <CompanyInfo />
       <LossIndicators />
-      <VideoDemo />
       <Comparison />
       <APIConfiguration />
       <Testimonials />
