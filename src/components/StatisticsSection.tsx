@@ -4,6 +4,12 @@ import { Section } from "./Section";
 export const StatisticsSection = () => {
   return (
     <Section>
+      <div className="text-center mb-12">
+        <h2 className="font-inter text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
+          Porque reaproveitar minha base?
+        </h2>
+      </div>
+
       <div className="grid md:grid-cols-3 gap-8 mb-12">
         {/* Quadro 1 */}
         <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">

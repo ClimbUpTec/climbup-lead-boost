@@ -15,7 +15,7 @@ export const Pricing = () => {
       name: "Pro",
       price: "R$699,90", 
       target: "Pequenas equipes",
-      features: ["4 usuários", "Campanhas automáticas", "CRM", "WhatsApp/Instagram/Facebook integrados"]
+      features: ["4 usuários", "Campanhas automáticas", "CRM", "WhatsApp API", "Instagram/Facebook"]
     },
     {
       name: "Plus+",
@@ -51,7 +51,7 @@ export const Pricing = () => {
             <div className="space-y-2">
               {plan.features.map((feature, featureIndex) => (
                 <div key={featureIndex} className="flex items-center">
-                  <Check className="w-4 h-4 text-green-500 mr-2" />
+                  <Check className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
                   <span className="font-source-sans text-sm text-climb-eerie">{feature}</span>
                 </div>
               ))}

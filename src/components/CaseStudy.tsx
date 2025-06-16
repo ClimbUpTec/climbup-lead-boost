@@ -1,45 +1,50 @@
 
 import { Section } from "./Section";
 import { CTAButton } from "./CTAButton";
-import { TrendingUp } from "lucide-react";
 
 export const CaseStudy = () => {
   return (
-    <Section className="bg-climb-orange">
-      <div className="text-center">
-        <div className="max-w-3xl mx-auto">
-          <TrendingUp className="w-16 h-16 text-white mb-6 mx-auto" />
-          <h2 className="font-inter text-3xl font-bold text-white mb-6">
+    <Section background="light">
+      <div className="grid lg:grid-cols-2 gap-12 items-center">
+        {/* Texto */}
+        <div>
+          <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
             Resultados reais e imediatos
           </h2>
-          <div className="flex items-center justify-center mb-6 relative">
-            {/* Mockup redondo menor com foto do proprietário */}
-            <div className="relative">
-              <div className="w-32 h-32 rounded-full bg-white p-2 shadow-lg border-2 border-white">
-                <img 
-                  src="/lovable-uploads/26e07aac-a641-4d44-a226-04be9fedd06e.png" 
-                  alt="Proprietário da Comfy Pizza Napoletana" 
-                  className="w-full h-full object-cover rounded-full"
-                />
-              </div>
-              {/* Logo da empresa no canto */}
-              <div className="absolute -bottom-1 -right-1 w-10 h-10 bg-white rounded-full p-1 shadow-lg border border-white">
-                <img 
-                  src="/lovable-uploads/3b13e5a8-924f-433a-9022-9303247a6b91.png" 
-                  alt="Comfy Pizza Napoletana Logo" 
-                  className="w-full h-full object-contain"
-                />
+          
+          <div className="space-y-6 mb-8">
+            <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
+              <h3 className="font-satoshi font-bold text-2xl text-climb-gunmetal mb-2">Comfy Pizza</h3>
+              <p className="font-open-sans text-climb-eerie mb-4">
+                Reativou 10.000 clientes inativos em apenas 30 dias usando campanhas automáticas no WhatsApp.
+              </p>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="text-center">
+                  <p className="font-satoshi font-bold text-3xl text-climb-orange">400%</p>
+                  <p className="font-open-sans text-climb-eerie">Aumento nas vendas</p>
+                </div>
+                <div className="text-center">
+                  <p className="font-satoshi font-bold text-3xl text-climb-orange">17x</p>
+                  <p className="font-open-sans text-climb-eerie">Retorno sobre investimento</p>
+                </div>
               </div>
             </div>
           </div>
-          <p className="font-inter text-xl text-white mb-8">
-            A <strong>Comfy Pizza Napoletana</strong> foi de{" "}
-            <span className="text-white font-bold underline">R$40 mil para R$90 mil/mês</span>{" "}
-            em menos de 3 meses com esse método.
-          </p>
-          <CTAButton variant="secondary" className="bg-white hover:bg-gray-100 text-climb-orange">
-            QUERO VENDER MAIS
+
+          <CTAButton>
+            QUERO RESULTADOS ASSIM
           </CTAButton>
+        </div>
+
+        {/* Mockup do celular */}
+        <div className="flex justify-center">
+          <div className="relative">
+            <img 
+              src="/lovable-uploads/8f79a595-3ad6-4fd2-a1e5-e39aa9824577.png" 
+              alt="WhatsApp Campaign Example" 
+              className="max-w-full h-auto rounded-lg shadow-2xl"
+            />
+          </div>
         </div>
       </div>
     </Section>
