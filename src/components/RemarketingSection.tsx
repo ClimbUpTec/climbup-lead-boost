@@ -21,10 +21,13 @@ export const RemarketingSection = () => {
           </h3>
           <div className="space-y-3">
             <p className="font-open-sans text-climb-eerie">
-              O cliente vai na sua loja 1x e nunca mais volta ou você investe, gera leads e fala com eles 1 ou 2 vezes...
+              • O cliente vai na sua loja 1x e nunca mais volta
             </p>
             <p className="font-open-sans text-climb-eerie">
-              Alguns compram, outros não, essa base é esquecida.
+              • Você investe, gera leads e fala com eles 1 ou 2 vezes...
+            </p>
+            <p className="font-open-sans text-climb-eerie">
+              • Alguns compram, outros não, essa base é esquecida.
             </p>
             <p className="font-open-sans text-red-600 font-semibold">
               📉 Sem automação, isso vira venda perdida.
