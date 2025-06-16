@@ -9,13 +9,13 @@ export const Pricing = () => {
       name: "Essential",
       price: "R$499,90",
       target: "Microempresas",
-      features: ["2 usuários", "1 WhatsApp", "CRM", "automações"]
+      features: ["2 usuários", "1 WhatsApp", "CRM", "Campanhas manuais"]
     },
     {
       name: "Pro",
       price: "R$699,90", 
       target: "Pequenas equipes",
-      features: ["4 usuários", "Campanhas", "CRM", "Instagram/Facebook integrados"]
+      features: ["4 usuários", "Campanhas automáticas", "CRM", "WhatsApp/Instagram/Facebook integrados"]
     },
     {
       name: "Plus+",
@@ -27,7 +27,7 @@ export const Pricing = () => {
       name: "Advanced",
       price: "R$1.999,90",
       target: "Equipes comerciais estruturadas",
-      features: ["16 usuários", "4 WhatsApps", "integrações avançadas"]
+      features: ["16 usuários", "4 WhatsApps", "Automações ilimitadas"]
     }
   ];
 

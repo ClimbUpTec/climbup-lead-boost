@@ -5,9 +5,9 @@ import { CheckCircle } from "lucide-react";
 
 export const APIConfiguration = () => {
   const features = [
-    "Verificação e cadastro na Meta",
-    "Criação da conta WABA",
-    "Validação do número",
+    "Criação de Business Manager na Meta",
+    "Verificação e cadastro de Portfólio Empresarial",
+    "Criação da conta WABA e validação do número",
     "Conexão pronta com Climb Up",
     "Suporte técnico completo"
   ];
@@ -20,7 +20,7 @@ export const APIConfiguration = () => {
         </h2>
         
         <p className="font-open-sans text-xl text-white mb-12">
-          Configuração completa da API oficial da Meta feita por nós. Você não precisa se preocupar com nada técnico.
+          Criação de contas Meta e configuração completa da API oficial feita totalmente por nós. Você não precisa se preocupar com nada técnico.
         </p>
       </div>
 

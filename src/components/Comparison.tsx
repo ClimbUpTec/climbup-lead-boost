@@ -7,11 +7,8 @@ export const Comparison = () => {
     { feature: "API oficial da Meta", climbUp: true, competitors: false },
     { feature: "Sem bloqueios", climbUp: true, competitors: false },
     { feature: "Suporte humanizado", climbUp: true, competitors: false },
-    { feature: "Sem fidelidade", climbUp: true, competitors: false },
     { feature: "Treinamento incluso", climbUp: true, competitors: false },
     { feature: "Interface simples", climbUp: true, competitors: false },
-    { feature: "Estratégia personalizada", climbUp: true, competitors: false },
-    { feature: "Configuração da API", climbUp: true, competitors: false },
     { feature: "Resultados rápidos", climbUp: true, competitors: false }
   ];
 

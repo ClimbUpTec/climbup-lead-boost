@@ -101,8 +101,7 @@ export const SolutionFlow = () => {
             {/* Etapa 3 - Base do funil com Climb Up aumentada */}
             <div className="w-56 h-32 bg-gradient-to-b from-climb-orange to-climb-orange-dark flex items-center justify-center text-center mx-auto" style={{clipPath: 'polygon(18% 0%, 82% 0%, 75% 100%, 25% 100%)'}}>
               <div>
-                <p className="font-inter font-bold text-white text-sm">Base inativa +</p>
-                <p className="font-inter font-bold text-white text-sm">Climb Up 4% =</p>
+                <p className="font-inter font-bold text-white text-sm">Reativação de base 4% =</p>
                 <p className="font-inter font-bold text-white text-sm">+40 VENDAS</p>
               </div>
             </div>
