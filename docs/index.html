@@ -1,89 +1,30 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Climb Up - Máquina de Vendas</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff;
-      color: #1e1e1e;
-    }
-    header {
-      padding: 20px;
-      text-align: center;
-    }
-    header img {
-      max-width: 200px;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    video {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-    .whatsapp-btn {
-      display: inline-block;
-      background-color: #25d366;
-      color: white;
-      padding: 15px 25px;
-      font-size: 18px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin: 40px auto;
-      display: block;
-      width: fit-content;
-    }
-    .logos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 30px;
-    }
-    .logos img {
-      max-width: 200px;
-      height: auto;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climb Up - Transforme seu WhatsApp em uma máquina de vendas</title>
+    <meta name="description" content="Venda até 300% mais com campanhas via WhatsApp. 3x mais conversão que outros canais, 17x ROAS comprovado." />
+    <meta name="author" content="Climb Up" />
 
-<header>
-  <img src="1 - assinatura colorida 1.png" alt="Climb Up Logo">
-</header>
+    <meta property="og:title" content="Climb Up - Transforme seu WhatsApp em uma máquina de vendas" />
+    <meta property="og:description" content="Venda até 300% mais com campanhas via WhatsApp. 3x mais conversão que outros canais, 17x ROAS comprovado." />
+    <meta property="og:type" content="website" />
 
-<section>
-  <h1>Transforme seu WhatsApp em uma máquina de vendas</h1>
-  <p>Venda até 300% mais com campanhas via WhatsApp. 3x mais conversão que outros canais. 17x ROAS comprovado.</p>
-</section>
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Satoshi Font from CDN -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,900&display=swap" rel="stylesheet">
+  </head>
 
-<section>
-  <h2>Demonstração da Plataforma</h2>
-  <video controls>
-    <source src="0604(6).mp4" type="video/mp4">
-    Seu navegador não suporta o vídeo.
-  </video>
-</section>
-
-<section>
-  <h2>Entre em Contato Agora</h2>
-  <a class="whatsapp-btn" href="https://wa.me/5551981985539" target="_blank">Falar no WhatsApp</a>
-</section>
-
-<section class="logos">
-  <img src="2 - assinatura colorida 2.png" alt="Logo Branca">
-  <img src="3 - simbolo colorido.png" alt="Ícone">
-</section>
-
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
