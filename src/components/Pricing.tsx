@@ -2,6 +2,7 @@
 import { Section } from "./Section";
 import { CTAButton } from "./CTAButton";
 import { Check } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export const Pricing = () => {
   const plans = [
@@ -9,27 +10,35 @@ export const Pricing = () => {
       name: "Essential",
       price: "R$499,90",
       target: "Microempresas",
-      features: ["2 usuários", "1 WhatsApp", "CRM", "Campanhas manuais"]
+      features: ["2 usuários", "1 WhatsApp", "CRM", "Campanhas manuais"],
+      paymentLink: "https://www.asaas.com/c/nvzehyl97a9kq51v"
     },
     {
       name: "Pro",
       price: "R$699,90", 
       target: "Pequenas equipes",
-      features: ["4 usuários", "Campanhas automáticas", "CRM", "WhatsApp API", "Instagram/Facebook"]
+      features: ["4 usuários", "Campanhas automáticas", "CRM", "WhatsApp API", "Instagram/Facebook"],
+      paymentLink: "https://www.asaas.com/c/v61wtx5rimue05zt"
     },
     {
       name: "Plus+",
       price: "R$1.299,90",
       target: "Times de vendas ativos", 
-      features: ["8 usuários", "2 WhatsApps", "API/Webhooks"]
+      features: ["8 usuários", "2 WhatsApps", "API/Webhooks"],
+      paymentLink: "https://www.asaas.com/c/2sowi9506ygrl6ji"
     },
     {
       name: "Advanced",
       price: "R$1.999,90",
       target: "Equipes comerciais estruturadas",
-      features: ["16 usuários", "4 WhatsApps", "Automações ilimitadas"]
+      features: ["16 usuários", "4 WhatsApps", "Automações ilimitadas"],
+      paymentLink: "https://www.asaas.com/c/ex59s8ja0yuvbb3g"
     }
   ];
+
+  const handlePlanClick = (paymentLink: string) => {
+    window.open(paymentLink, '_blank');
+  };
 
   return (
     <Section>
@@ -48,7 +57,7 @@ export const Pricing = () => {
             <h3 className="font-satoshi font-bold text-xl text-climb-gunmetal mb-2">{plan.name}</h3>
             <div className="text-3xl font-bold text-climb-orange mb-2">{plan.price}</div>
             <p className="font-source-sans text-sm text-climb-eerie mb-4">{plan.target}</p>
-            <div className="space-y-2">
+            <div className="space-y-2 mb-6">
               {plan.features.map((feature, featureIndex) => (
                 <div key={featureIndex} className="flex items-center">
                   <Check className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
@@ -56,6 +65,12 @@ export const Pricing = () => {
                 </div>
               ))}
             </div>
+            <Button
+              onClick={() => handlePlanClick(plan.paymentLink)}
+              className="w-full bg-climb-orange hover:bg-climb-orange-wheel text-white font-bold py-2 px-4 rounded-lg transition-all duration-300"
+            >
+              COMPRAR AGORA
+            </Button>
           </div>
         ))}
       </div>

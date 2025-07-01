@@ -5,6 +5,10 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const FAQ = () => {
   const faqs = [
     {
+      question: "Após o pagamento como poderei acessar?",
+      answer: "Após o pagamento, você pode criar o seu cadastro no link: https://www.appclimbup.com.br/trial/sign-up, após criar seu cadastro entre em contato com nossa equipe através do WhatsApp (51) 98198-5539 ou em qualquer botão do nosso site para desbloqueio das funcionalidades contratadas."
+    },
+    {
       question: "Meu número pode ser bloqueado?",
       answer: "Com a API Oficial, seus disparos são realizados de forma autorizada, estruturada e em conformidade com as regras da Meta, o que garante altas taxas de entrega e muito mais segurança em comparação com envios manuais ou ferramentas não oficiais. A API é o único canal aprovado pela Meta para envios em massa, por isso não sofre bloqueios por volume de mensagens, diferente do WhatsApp convencional e Business, que não suportam automações ou grandes quantidades de envio. Seguindo as políticas corretamente, controlamos a qualidade do número, utilizamos segmentações inteligentes e garantimos o envio apenas para clientes com opt-in, o que reduz drasticamente os riscos de bloqueio."
     },

@@ -1,7 +1,6 @@
 
 import { Section } from "./Section";
 import { CTAButton } from "./CTAButton";
-import { Play } from "lucide-react";
 
 export const VideoDemo = () => {
   return (
@@ -12,14 +11,20 @@ export const VideoDemo = () => {
         </h2>
         
         <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto mb-8">
-          <div className="bg-climb-gunmetal rounded-lg aspect-video flex items-center justify-center mb-6">
-            <Play className="w-24 h-24 text-white" />
+          <div className="aspect-video mb-6">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/r_qdgC6XHWA"
+              title="Veja uma campanha acontecendo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="rounded-lg"
+            ></iframe>
           </div>
           <p className="font-inter text-lg text-climb-eerie mb-6">
             🎥 Veja como é simples fazer campanhas no WhatsApp e transformar leads em vendas no mesmo dia.
-          </p>
-          <p className="font-inter text-sm text-climb-eerie mb-6">
-            (Vídeo de demonstração 30–60s)
           </p>
         </div>
 
