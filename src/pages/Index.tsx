@@ -15,6 +15,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { Pricing } from "@/components/Pricing";
 import { FinalCTA } from "@/components/FinalCTA";
 import { FAQ } from "@/components/FAQ";
+import { WhatsAppFloatingButton } from "@/components/WhatsAppFloatingButton";
 
 const Index = () => {
   return (
@@ -35,6 +36,7 @@ const Index = () => {
       <Pricing />
       <FinalCTA />
       <FAQ />
+      <WhatsAppFloatingButton />
     </div>
   );
 };

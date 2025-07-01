@@ -15,6 +15,22 @@ export const FAQ = () => {
     {
       question: "É só para WhatsApp?",
       answer: "Não! Além do WhatsApp, nossa plataforma integra com Instagram, Facebook Messenger e outros canais. Você gerencia tudo em um só lugar de forma unificada."
+    },
+    {
+      question: "Posso criar minhas campanhas sozinho?",
+      answer: "Sim! A Climb Up tem um layout simplificado, permitindo que mesmo sem nenhum conhecimento prévio você possa sozinho cadastrar e disparar suas primeiras campanhas em segundos, além disso nosso time oferece treinamento e suporte humanizado e gratuito."
+    },
+    {
+      question: "Tem custo pra enviar mensagens?",
+      answer: "Sim, atualmente a Meta cobra por modelo de mensagem enviado através da API Oficial do WhatsApp. O valor para envio de mensagens é de $0,0625* para conversas de marketing e $0,008* para conversas de utilidade."
+    },
+    {
+      question: "Terei resultado desde a primeira campanha?",
+      answer: "Sim, nossos clientes fecham vendas desde a primeira campanha."
+    },
+    {
+      question: "Posso começar a fazer campanhas imediatamente?",
+      answer: "Caso você já possua um número de API sim, imediatamente. Caso você não possua, após a confirmação de pagamento, a equipe da Climb Up fará a criação do seu número de API, verificação do seu portfólio empresarial e implantação do número na plataforma, esse processo pode levar de 30min a 07 dias úteis, dependendo de como suas contas Meta estiverem, após esse processo você poderá usufruir por completo das funcionalidades contratadas."
     }
   ];
 

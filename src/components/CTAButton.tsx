@@ -17,10 +17,20 @@ export const CTAButton = ({ children, className, onClick, variant = "primary" }:
     secondary: "bg-climb-gunmetal hover:bg-climb-eerie text-white"
   };
 
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    } else {
+      const message = encodeURIComponent("Quero vender mais com campanhas no WhatsApp");
+      const whatsappUrl = `https://wa.me/5551981985539?text=${message}`;
+      window.open(whatsappUrl, '_blank');
+    }
+  };
+
   return (
     <Button 
       className={cn(baseClasses, variantClasses[variant], className)}
-      onClick={onClick}
+      onClick={handleClick}
     >
       {children}
     </Button>
