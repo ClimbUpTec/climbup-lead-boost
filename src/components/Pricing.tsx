@@ -53,23 +53,21 @@ export const Pricing = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         {plans.map((plan, index) => (
-          <div key={index} className={`bg-white p-6 rounded-lg shadow-lg flex flex-col h-full ${index === 1 ? 'border-2 border-climb-orange' : ''}`}>
-            <div className="flex-grow">
-              <h3 className="font-satoshi font-bold text-xl text-climb-gunmetal mb-2">{plan.name}</h3>
-              <div className="text-3xl font-bold text-climb-orange mb-2">{plan.price}</div>
-              <p className="font-source-sans text-sm text-climb-eerie mb-4">{plan.target}</p>
-              <div className="space-y-2 mb-6">
-                {plan.features.map((feature, featureIndex) => (
-                  <div key={featureIndex} className="flex items-center">
-                    <Check className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
-                    <span className="font-source-sans text-sm text-climb-eerie">{feature}</span>
-                  </div>
-                ))}
-              </div>
+          <div key={index} className={`bg-white p-6 rounded-lg shadow-lg ${index === 1 ? 'border-2 border-climb-orange' : ''}`}>
+            <h3 className="font-satoshi font-bold text-xl text-climb-gunmetal mb-2">{plan.name}</h3>
+            <div className="text-3xl font-bold text-climb-orange mb-2">{plan.price}</div>
+            <p className="font-source-sans text-sm text-climb-eerie mb-4">{plan.target}</p>
+            <div className="space-y-2 mb-6">
+              {plan.features.map((feature, featureIndex) => (
+                <div key={featureIndex} className="flex items-center">
+                  <Check className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
+                  <span className="font-source-sans text-sm text-climb-eerie">{feature}</span>
+                </div>
+              ))}
             </div>
             <Button
               onClick={() => handlePlanClick(plan.paymentLink)}
-              className="w-full bg-climb-orange hover:bg-climb-orange-wheel text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 mt-auto"
+              className="w-full bg-climb-orange hover:bg-climb-orange-wheel text-white font-bold py-2 px-4 rounded-lg transition-all duration-300"
             >
               CONTRATE AGORA
             </Button>
