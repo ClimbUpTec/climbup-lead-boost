@@ -36,9 +36,7 @@ export const StatisticsSection = () => {
             <p className="font-inter text-lg font-bold text-climb-gunmetal mb-4">
               "Um lead só vira cliente entre o 3º e o 13º contato"
             </p>
-            <p className="font-inter text-xs text-gray-500 mt-4 italic">
-              Fonte: Salesforce
-            </p>
+            <p className="font-inter text-xs text-gray-500 mt-4 italic">Fonte: Salesforce, Linkedin News</p>
           </div>
         </div>
       </div>
