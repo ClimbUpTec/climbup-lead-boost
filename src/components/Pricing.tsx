@@ -69,7 +69,7 @@ export const Pricing = () => {
               onClick={() => handlePlanClick(plan.paymentLink)}
               className="w-full bg-climb-orange hover:bg-climb-orange-wheel text-white font-bold py-2 px-4 rounded-lg transition-all duration-300"
             >
-              COMPRAR AGORA
+              CONTRATE AGORA
             </Button>
           </div>
         ))}
