@@ -13,12 +13,12 @@ export const CaseStudy = () => {
           </svg>
         </div>
 
-        <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-white mb-12">
-          Resultados reais e imediatos
-        </h2>
-        
-        <div className="flex flex-col lg:flex-row items-center gap-8 mb-8">
+        <div className="flex flex-col lg:flex-row items-start gap-8 mb-8">
           <div className="flex-1">
+            <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-white mb-12">
+              Resultados reais e imediatos
+            </h2>
+            
             {/* Foto do cliente */}
             <div className="mb-8">
               <div className="relative inline-block">
@@ -48,11 +48,11 @@ export const CaseStudy = () => {
             </p>
           </div>
           
-          <div className="flex-shrink-0 lg:w-80">
+          <div className="flex-shrink-0 lg:w-64">
             <img 
               src="/lovable-uploads/42e902c7-a68d-4b64-8ff4-25f230a9d79b.png" 
               alt="Exemplo de campanha WhatsApp" 
-              className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
+              className="w-full max-w-xs mx-auto rounded-lg shadow-lg"
             />
           </div>
         </div>
