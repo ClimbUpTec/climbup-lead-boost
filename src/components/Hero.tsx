@@ -21,21 +21,9 @@ export const Hero = () => {
             <span className="text-climb-orange">máquina de vendas</span>
           </h1>
           
-          <div className="flex flex-col lg:flex-row items-start gap-8 mb-8 max-w-6xl mx-auto">
-            <div className="flex-1">
-              <p className="font-inter text-xl md:text-2xl text-climb-eerie mb-8">
-                Venda <strong className="text-climb-orange">200% mais</strong> com campanhas via WhatsApp — simples, rápido e comprovado.
-              </p>
-            </div>
-            
-            <div className="flex-shrink-0 lg:w-80">
-              <img 
-                src="/lovable-uploads/42e902c7-a68d-4b64-8ff4-25f230a9d79b.png" 
-                alt="Exemplo de campanha WhatsApp" 
-                className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
-              />
-            </div>
-          </div>
+          <p className="font-inter text-xl md:text-2xl text-climb-eerie mb-8">
+            Venda <strong className="text-climb-orange">200% mais</strong> com campanhas via WhatsApp — simples, rápido e comprovado.
+          </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
