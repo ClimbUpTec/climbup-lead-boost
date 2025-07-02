@@ -50,7 +50,7 @@ export const CaseStudy = () => {
           
           <div className="flex-shrink-0 lg:w-64">
             <img 
-              src="/lovable-uploads/42e902c7-a68d-4b64-8ff4-25f230a9d79b.png" 
+              src="/lovable-uploads/4356c211-833f-4c2b-893f-4081c04e6ddc.png" 
               alt="Exemplo de campanha WhatsApp" 
               className="w-full max-w-xs mx-auto rounded-lg shadow-lg"
             />
