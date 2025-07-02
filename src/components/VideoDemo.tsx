@@ -7,7 +7,7 @@ export const VideoDemo = () => {
     <Section background="light">
       <div className="text-center">
         <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
-          📹 Veja uma <span className="text-climb-orange">campanha acontecendo</span>
+          📹 Veja uma <span className="text-climb-orange">campanha de remarketing via WhatsApp na prática</span>
         </h2>
         
         <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto mb-8">

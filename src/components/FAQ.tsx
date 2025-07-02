@@ -5,7 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const FAQ = () => {
   const faqs = [
     {
-      question: "Após o pagamento como poderei acessar?",
+      question: "Fiz o pagamento, já posso acessar?",
       answer: "Após o pagamento, você pode criar o seu cadastro no link: https://www.appclimbup.com.br/trial/sign-up, após criar seu cadastro entre em contato com nossa equipe através do WhatsApp (51) 98198-5539 ou em qualquer botão do nosso site para desbloqueio das funcionalidades contratadas."
     },
     {
@@ -25,7 +25,7 @@ export const FAQ = () => {
       answer: "Sim! A Climb Up tem um layout simplificado, permitindo que mesmo sem nenhum conhecimento prévio você possa sozinho cadastrar e disparar suas primeiras campanhas em segundos, além disso nosso time oferece treinamento e suporte humanizado e gratuito."
     },
     {
-      question: "Tem custo pra enviar mensagens?",
+      question: "Tem custo para enviar mensagens?",
       answer: "Sim, atualmente a Meta cobra por modelo de mensagem enviado através da API Oficial do WhatsApp. O valor para envio de mensagens é de $0,0625* para conversas de marketing e $0,008* para conversas de utilidade."
     },
     {
