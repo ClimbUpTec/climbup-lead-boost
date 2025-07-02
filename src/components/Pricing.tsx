@@ -10,28 +10,28 @@ export const Pricing = () => {
       name: "Essential",
       price: "R$499,90",
       target: "Microempresas",
-      features: ["2 usuários", "1 WhatsApp", "CRM", "Campanhas manuais"],
+      features: ["02 Usuários", "01 WhatsApp", "Central de Atendimento", "CRM", "Chatbot de Atendimento", "Campanhas manuais"],
       paymentLink: "https://www.asaas.com/c/nvzehyl97a9kq51v"
     },
     {
       name: "Pro",
       price: "R$699,90", 
       target: "Pequenas equipes",
-      features: ["4 usuários", "Campanhas automáticas", "CRM", "WhatsApp API", "Instagram/Facebook"],
+      features: ["04 Usuários", "01 WhatsApp", "Direct Instagram e Messenger", "Tudo do 01 +", "Campanhas automáticas via WhatsApp", "Chatbot de Automação"],
       paymentLink: "https://www.asaas.com/c/v61wtx5rimue05zt"
     },
     {
       name: "Plus+",
       price: "R$1.299,90",
       target: "Times de vendas ativos", 
-      features: ["8 usuários", "2 WhatsApps", "API/Webhooks"],
+      features: ["08 Usuários", "02 WhatsApps", "Direct Instagram e Messenger", "Tudo do 1 e 2 +", "Carteirização", "Rodízio Automático de Leads"],
       paymentLink: "https://www.asaas.com/c/2sowi9506ygrl6ji"
     },
     {
       name: "Advanced",
       price: "R$1.999,90",
       target: "Equipes comerciais estruturadas",
-      features: ["16 usuários", "4 WhatsApps", "Automações ilimitadas"],
+      features: ["16 Usuários", "04 WhatsApps", "Direct Instagram e Messenger", "Tudo do 01, 02 e 03 +", "Automações ilimitadas", "Integrações (Webhook + API)"],
       paymentLink: "https://www.asaas.com/c/ex59s8ja0yuvbb3g"
     }
   ];

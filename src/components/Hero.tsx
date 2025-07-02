@@ -21,29 +21,11 @@ export const Hero = () => {
             <span className="text-climb-orange">máquina de vendas</span>
           </h1>
           
-          <p className="font-inter text-xl md:text-2xl text-climb-eerie mb-8 max-w-4xl mx-auto">
-            Venda <strong className="text-climb-orange">200% mais</strong> com campanhas via WhatsApp — simples, rápido e comprovado.
-          </p>
-
-          <div className="flex flex-col lg:flex-row items-center gap-8 mb-12 max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8 flex-1">
-              <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
-                <TrendingUp className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
-                <h3 className="font-inter font-bold text-climb-gunmetal mb-2">3x mais conversão</h3>
-                <p className="font-inter text-climb-eerie">que outros canais</p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
-                <Target className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
-                <h3 className="font-inter font-bold text-climb-gunmetal mb-2">17x ROAS</h3>
-                <p className="font-inter text-climb-eerie">17x o valor investido em vendas</p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
-                <MessageSquare className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
-                <h3 className="font-inter font-bold text-climb-gunmetal mb-2">1/25 vendas</h3>
-                <p className="font-inter text-climb-eerie">A cada 25 reaproveitados 1 venda</p>
-              </div>
+          <div className="flex flex-col lg:flex-row items-start gap-8 mb-8 max-w-6xl mx-auto">
+            <div className="flex-1">
+              <p className="font-inter text-xl md:text-2xl text-climb-eerie mb-8">
+                Venda <strong className="text-climb-orange">200% mais</strong> com campanhas via WhatsApp — simples, rápido e comprovado.
+              </p>
             </div>
             
             <div className="flex-shrink-0 lg:w-80">
@@ -52,6 +34,26 @@ export const Hero = () => {
                 alt="Exemplo de campanha WhatsApp" 
                 className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
               />
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
+            <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
+              <TrendingUp className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
+              <h3 className="font-inter font-bold text-climb-gunmetal mb-2">3x mais conversão</h3>
+              <p className="font-inter text-climb-eerie">que outros canais</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
+              <Target className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
+              <h3 className="font-inter font-bold text-climb-gunmetal mb-2">17x ROAS</h3>
+              <p className="font-inter text-climb-eerie">17x o valor investido em vendas</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-climb-orange">
+              <MessageSquare className="w-8 h-8 text-climb-orange mb-4 mx-auto" />
+              <h3 className="font-inter font-bold text-climb-gunmetal mb-2">1/25 vendas</h3>
+              <p className="font-inter text-climb-eerie">A cada 25 reaproveitados 1 venda</p>
             </div>
           </div>
 
