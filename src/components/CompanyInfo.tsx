@@ -15,22 +15,22 @@ export const CompanyInfo = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center">
-            <div className="text-7xl font-bold text-climb-orange mb-2">+200</div>
+            <div className="text-6xl font-bold text-climb-orange mb-2">+200</div>
             <p className="font-inter text-climb-eerie">empresas ativas</p>
           </div>
           
           <div className="text-center">
-            <div className="text-7xl font-bold text-climb-orange mb-2">+2Mi</div>
+            <div className="text-6xl font-bold text-climb-orange mb-2">+2Mi</div>
             <p className="font-inter text-climb-eerie">mensagens/mês</p>
           </div>
           
           <div className="text-center">
-            <div className="text-7xl font-bold text-climb-orange mb-2">+200k</div>
+            <div className="text-6xl font-bold text-climb-orange mb-2">+200k</div>
             <p className="font-inter text-climb-eerie">interações reais/mês</p>
           </div>
           
           <div className="text-center">
-            <div className="text-7xl font-bold text-climb-orange mb-2">100%</div>
+            <div className="text-6xl font-bold text-climb-orange mb-2">100%</div>
             <p className="font-inter text-climb-eerie">suporte humano</p>
           </div>
         </div>

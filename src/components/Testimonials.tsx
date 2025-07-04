@@ -15,7 +15,7 @@ export const Testimonials = () => {
       company: "Alligator Parts",
       logo: "/lovable-uploads/66b2a5bf-a0db-46d8-a3b8-bd3434268ba1.png",
       ownerPhoto: "/lovable-uploads/09cbe9be-462c-4d10-81d7-51dbff0125fe.png",
-      text: "Com organização e reengajamento, multiplicamos o faturamento em 4x, a Climb Up trouxe o crescimento que sonhávamos."
+      text: "Mais de 250 pedidos com uma única campanha, não conseguimos dar conta de atender, não sabíamos do potencial de vendas que tinhamos em mãos sem explorar."
     },
     {
       company: "Litifica",

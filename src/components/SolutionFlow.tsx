@@ -68,7 +68,7 @@ export const SolutionFlow = () => {
         <div className="flex flex-col items-center">
           <h3 className="font-inter text-3xl font-bold text-center mb-8 flex items-center justify-center gap-2">
             <span className="text-climb-orange">Com</span>
-            <img src="/lovable-uploads/02436edb-8867-441b-88b4-b2a14f9e8231.png" alt="Climb Up" className="h-8" />
+            <img src="/lovable-uploads/02436edb-8867-441b-88b4-b2a14f9e8231.png" alt="Climb Up" className="h-12" />
           </h3>
           
           {/* Funil Visual */}
