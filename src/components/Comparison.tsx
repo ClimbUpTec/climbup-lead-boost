@@ -15,8 +15,9 @@ export const Comparison = () => {
   return (
     <Section>
       <div className="text-center mb-12">
-        <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8">
-          <span className="text-climb-orange">Climb Up</span> vs Concorrentes
+        <h2 className="font-satoshi text-4xl md:text-5xl font-bold text-climb-gunmetal mb-8 flex items-center justify-center gap-4">
+          <img src="/lovable-uploads/02436edb-8867-441b-88b4-b2a14f9e8231.png" alt="Climb Up" className="h-12" />
+          vs Concorrentes
         </h2>
       </div>
 

@@ -47,14 +47,6 @@ export const CaseStudy = () => {
               em menos de 3 meses com esse método.
             </p>
           </div>
-          
-          <div className="flex-shrink-0 lg:w-64">
-            <img 
-              src="/lovable-uploads/4356c211-833f-4c2b-893f-4081c04e6ddc.png" 
-              alt="Exemplo de campanha WhatsApp" 
-              className="w-full max-w-xs mx-auto rounded-lg shadow-lg"
-            />
-          </div>
         </div>
 
         <CTAButton className="bg-white text-climb-orange hover:bg-gray-100 font-bold text-lg px-8 py-4">
