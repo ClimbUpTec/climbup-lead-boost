@@ -78,7 +78,7 @@ export const RemarketingSection = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton actionType="lead">
+        <CTAButton>
           QUERO VENDER NO WHATSAPP
         </CTAButton>
       </div>

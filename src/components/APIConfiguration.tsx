@@ -34,7 +34,7 @@ export const APIConfiguration = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton actionType="lead">
+        <CTAButton>
           VENDER SEM DOR DE CABEÇA
         </CTAButton>
       </div>

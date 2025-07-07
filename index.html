@@ -2,29 +2,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)
-    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-    // Lê utm_campaign
-    const utm = new URLSearchParams(window.location.search).get('utm_campaign') || '';
-
-    // Inicializa o pixel certo (fallback para público geral)
-    if (utm === 'restaurantes') {
-      fbq('init', '1781153999276706');  // Restaurantes
-    } else {
-      fbq('init', '1803246113962142');  // Público Geral (fallback)
-    }
-
-    // Dispara PageView
-    fbq('track', 'PageView');
-    </script>
-    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Climb Up - Transforme seu WhatsApp em uma máquina de vendas</title>
@@ -51,34 +28,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    
-    <script>
-    function handleClick(tipo) {
-      const params   = new URLSearchParams(window.location.search);
-      const source   = params.get('utm_source')   || 'facebook';
-      const campaign = params.get('utm_campaign') || (tipo === 'restaurantes' ? 'restaurantes' : 'publico_geral');
-      let   medium;
-
-      if (tipo === 'lead') {
-        medium = (campaign === 'restaurantes')
-          ? 'botao_fale_restaurantes'
-          : 'botao_fale_geral';
-        fbq('track', 'Lead');
-      } else if (tipo === 'compra') {
-        medium = (campaign === 'restaurantes')
-          ? 'botao_compra_restaurantes'
-          : 'botao_compra_geral';
-        fbq('track', 'Purchase');
-      }
-
-      const destino = 
-        `https://app.climbup.com.br/atendimento`
-        + `?utm_source=${encodeURIComponent(source)}`
-        + `&utm_medium=${encodeURIComponent(medium)}`
-        + `&utm_campaign=${encodeURIComponent(campaign)}`;
-
-      window.location.href = destino;
-    }
-    </script>
   </body>
 </html>

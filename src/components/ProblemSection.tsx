@@ -73,7 +73,7 @@ export const ProblemSection = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton actionType="lead">
+        <CTAButton>
           QUERO ESSE MÉTODO
         </CTAButton>
       </div>

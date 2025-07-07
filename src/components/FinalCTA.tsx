@@ -33,7 +33,7 @@ export const FinalCTA = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton className="text-2xl px-16 py-6" actionType="compra">
+        <CTAButton className="text-2xl px-16 py-6">
           QUERO COMEÇAR AGORA
         </CTAButton>
       </div>

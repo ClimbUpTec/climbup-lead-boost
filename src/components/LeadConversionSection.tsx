@@ -55,7 +55,7 @@ export const LeadConversionSection = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton actionType="lead">
+        <CTAButton>
           QUERO VENDER MAIS
         </CTAButton>
       </div>
