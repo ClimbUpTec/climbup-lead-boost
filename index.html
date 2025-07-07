@@ -23,6 +23,26 @@
     
     <!-- Satoshi Font from CDN -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,900&display=swap" rel="stylesheet">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    const url = window.location.href;
+    if (url.includes("utm_campaign=restaurantes")) {
+      fbq('init', '1781153999276706');
+    } else {
+      fbq('init', '1803246113962142');
+    }
+    fbq('track', 'PageView');
+    </script>
   </head>
 
   <body>
