@@ -33,7 +33,7 @@ export const ProblemsSection = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton>
+        <CTAButton actionType="lead">
           QUERO RESOLVER ISSO AGORA
         </CTAButton>
       </div>

@@ -45,7 +45,7 @@ export const Hero = () => {
             </div>
           </div>
 
-          <CTAButton className="text-xl px-12 py-6">
+          <CTAButton className="text-xl px-12 py-6" actionType="lead">
             QUERO VENDER MAIS
           </CTAButton>
         </div>
