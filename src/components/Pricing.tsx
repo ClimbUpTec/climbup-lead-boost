@@ -37,7 +37,6 @@ export const Pricing = () => {
   ];
 
   const handlePlanClick = (paymentLink: string) => {
-    if ((window as any).trackPurchase) (window as any).trackPurchase();
     window.open(paymentLink, '_blank');
   };
 

@@ -18,7 +18,6 @@ export const CTAButton = ({ children, className, onClick, variant = "primary" }:
   };
 
   const handleClick = () => {
-    if ((window as any).trackLead) (window as any).trackLead();
     if (onClick) {
       onClick();
     } else {
