@@ -21,10 +21,6 @@ export const CTAButton = ({ children, className, onClick, variant = "primary" }:
     if (onClick) {
       onClick();
     } else {
-      // Track Lead event for WhatsApp clicks
-      if (typeof window.fbq !== 'undefined') {
-        window.fbq('track', 'Lead');
-      }
       const message = encodeURIComponent("Quero vender mais com campanhas no WhatsApp");
       const whatsappUrl = `https://wa.me/5551981985539?text=${message}`;
       window.open(whatsappUrl, '_blank');

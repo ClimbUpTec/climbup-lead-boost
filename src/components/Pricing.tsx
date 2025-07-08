@@ -37,10 +37,6 @@ export const Pricing = () => {
   ];
 
   const handlePlanClick = (paymentLink: string) => {
-    // Track InitiateCheckout event for plan purchases
-    if (typeof window.fbq !== 'undefined') {
-      window.fbq('track', 'InitiateCheckout');
-    }
     window.open(paymentLink, '_blank');
   };
 
