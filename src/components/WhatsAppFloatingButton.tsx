@@ -3,6 +3,10 @@ import { MessageSquare } from "lucide-react";
 
 export const WhatsAppFloatingButton = () => {
   const handleClick = () => {
+    // Track Lead event for WhatsApp clicks
+    if (typeof window.fbq !== 'undefined') {
+      window.fbq('track', 'Lead');
+    }
     const message = encodeURIComponent("Quero vender mais com campanhas no WhatsApp");
     const whatsappUrl = `https://wa.me/5551981985539?text=${message}`;
     window.open(whatsappUrl, '_blank');
