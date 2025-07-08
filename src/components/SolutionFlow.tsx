@@ -12,10 +12,10 @@ export const SolutionFlow = () => {
         </h2>
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-8 mb-12 items-start">
+      <div className="grid lg:grid-cols-2 gap-8 mb-12 items-center">
         {/* Funil Esquerdo - Sem Climb Up */}
-        <div className="flex flex-col items-center">
-          <h3 className="font-inter text-3xl font-bold text-gray-700 text-center mb-8">
+        <div className="flex flex-col items-center justify-center">
+          <h3 className="font-inter text-3xl font-bold text-gray-700 text-center mb-8 h-16 flex items-center justify-center">
             Sem Climb Up
           </h3>
           
@@ -65,8 +65,8 @@ export const SolutionFlow = () => {
         </div>
 
         {/* Funil Direito - Com Climb Up */}
-        <div className="flex flex-col items-center">
-          <h3 className="font-inter text-3xl font-bold text-center mb-8 flex items-center justify-center gap-2">
+        <div className="flex flex-col items-center justify-center">
+          <h3 className="font-inter text-3xl font-bold text-center mb-8 h-16 flex items-center justify-center gap-2">
             <span className="text-climb-orange">Com</span>
             <img src="/lovable-uploads/02436edb-8867-441b-88b4-b2a14f9e8231.png" alt="Climb Up" className="h-16" />
           </h3>
