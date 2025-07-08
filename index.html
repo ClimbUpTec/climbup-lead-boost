@@ -34,8 +34,13 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1803246113962142');
-    fbq('track', 'PageView');
+    
+    // Previne múltiplas inicializações
+    if (!window.fbPixelInitialized) {
+      fbq('init', '1803246113962142');
+      fbq('track', 'PageView');
+      window.fbPixelInitialized = true;
+    }
     </script>
   </head>
 
