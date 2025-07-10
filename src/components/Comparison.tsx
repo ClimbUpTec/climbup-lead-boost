@@ -9,10 +9,9 @@ export const Comparison = () => {
     { feature: "Suporte humanizado", climbUp: true, competitors: false },
     { feature: "Treinamento incluso", climbUp: true, competitors: false },
     { feature: "Interface simples", climbUp: true, competitors: false },
-    { feature: "Resultados rápidos", climbUp: true, competitors: false },
     { feature: "Centralização de canais", climbUp: true, competitors: false },
     { feature: "Múltiplos vendedores", climbUp: true, competitors: false },
-    { feature: "CRM", climbUp: true, competitors: false },
+    { feature: "CRM e Supervisão", climbUp: true, competitors: false },
     { feature: "Chatbot e IA", climbUp: true, competitors: false }
   ];
 
