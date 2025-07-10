@@ -9,7 +9,7 @@ export const Testimonials = () => {
       company: "Comfy Pizza Napoletana",
       logo: "/lovable-uploads/3b13e5a8-924f-433a-9022-9303247a6b91.png",
       ownerPhoto: "/lovable-uploads/26e07aac-a641-4d44-a226-04be9fedd06e.png",
-      text: "Saltamos de R$40k pra R$90k/mês só reativando a base de clientes antigos"
+      text: "Saltamos de R$40 mil pra R$90 mil mês reativando a base de clientes antigos"
     },
     {
       company: "Alligator Parts",
@@ -21,7 +21,7 @@ export const Testimonials = () => {
       company: "Litifica",
       logo: "/lovable-uploads/966ba412-fc12-4acd-9682-47c1cc118643.png",
       ownerPhoto: "/lovable-uploads/5d59e715-212d-4c54-8724-5af78a1dc9c7.png",
-      text: "Economizamos tempo e transformamos o WhatsApp em nosso principal canal de vendas"
+      text: "Economizamos tempo e o WhatsApp virou nosso principal canal de vendas, foram mais de R$26 mil em menos de 30 dias"
     },
     {
       company: "Pernalonga Burger",

@@ -51,6 +51,12 @@ export const RemarketingSection = () => {
             <p className="font-open-sans text-climb-eerie">
               • Estimula recompra de clientes
             </p>
+            <p className="font-open-sans text-climb-eerie">
+              • Supervisiona vendedores e equipes
+            </p>
+            <p className="font-open-sans text-climb-eerie">
+              • Automatiza processos
+            </p>
             <p className="font-open-sans text-climb-orange font-semibold">
               ⚙️ Sem esforço extra do seu time
             </p>
@@ -69,6 +75,12 @@ export const RemarketingSection = () => {
             </p>
             <p className="font-open-sans text-climb-eerie">
               • Clientes pontuais viram compradores fiéis
+            </p>
+            <p className="font-open-sans text-climb-eerie">
+              • Equipe focada e organizada
+            </p>
+            <p className="font-open-sans text-climb-eerie">
+              • Vendas no automático
             </p>
             <p className="font-open-sans text-green-600 font-semibold">
               💰 200% mais vendas com a mesma base em menos de 30 dias
