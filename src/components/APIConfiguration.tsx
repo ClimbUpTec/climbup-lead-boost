@@ -34,7 +34,7 @@ export const APIConfiguration = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton>
+        <CTAButton message="Quero fazer minha primeira campanha no WhatsApp">
           VENDER SEM DOR DE CABEÇA
         </CTAButton>
       </div>

@@ -33,7 +33,7 @@ export const FinalCTA = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton className="text-2xl px-16 py-6">
+        <CTAButton className="text-2xl px-16 py-6" message="Quero começar agora a vender mais no WhatsApp">
           QUERO COMEÇAR AGORA
         </CTAButton>
       </div>

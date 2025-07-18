@@ -90,7 +90,7 @@ export const RemarketingSection = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton>
+        <CTAButton message="Quero vender no WhatsApp">
           QUERO VENDER NO WHATSAPP
         </CTAButton>
       </div>

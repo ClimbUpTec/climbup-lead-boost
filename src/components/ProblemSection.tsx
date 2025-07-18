@@ -73,7 +73,7 @@ export const ProblemSection = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton>
+        <CTAButton message="Quero transformar o WhatsApp do meu negócio em uma máquina de vendas">
           QUERO ESSE MÉTODO
         </CTAButton>
       </div>

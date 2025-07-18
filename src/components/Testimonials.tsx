@@ -76,7 +76,7 @@ export const Testimonials = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton>
+        <CTAButton message="Quero ter resultados com a Climb Up">
           EU QUERO TER ESSES RESULTADOS
         </CTAButton>
       </div>

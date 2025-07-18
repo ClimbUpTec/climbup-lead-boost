@@ -82,7 +82,7 @@ export const Pricing = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton>
+        <CTAButton message="Quero escolher meu plano">
           ESCOLHER MEU PLANO
         </CTAButton>
       </div>

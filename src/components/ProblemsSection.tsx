@@ -33,7 +33,7 @@ export const ProblemsSection = () => {
       </div>
 
       <div className="text-center">
-        <CTAButton>
+        <CTAButton message="Quero reaproveitar meus clientes">
           QUERO RESOLVER ISSO AGORA
         </CTAButton>
       </div>

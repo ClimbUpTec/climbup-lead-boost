@@ -7,9 +7,10 @@ interface CTAButtonProps {
   className?: string;
   onClick?: () => void;
   variant?: "primary" | "secondary";
+  message?: string;
 }
 
-export const CTAButton = ({ children, className, onClick, variant = "primary" }: CTAButtonProps) => {
+export const CTAButton = ({ children, className, onClick, variant = "primary", message }: CTAButtonProps) => {
   const baseClasses = "text-lg font-bold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg";
   
   const variantClasses = {
@@ -21,8 +22,9 @@ export const CTAButton = ({ children, className, onClick, variant = "primary" }:
     if (onClick) {
       onClick();
     } else {
-      const message = encodeURIComponent("Quero vender mais com campanhas no WhatsApp");
-      const whatsappUrl = `https://wa.me/5551981435937?text=${message}`;
+      const defaultMessage = "Quero vender mais com campanhas no WhatsApp";
+      const encodedMessage = encodeURIComponent(message || defaultMessage);
+      const whatsappUrl = `https://wa.me/5551981435937?text=${encodedMessage}`;
       window.open(whatsappUrl, '_blank');
     }
   };

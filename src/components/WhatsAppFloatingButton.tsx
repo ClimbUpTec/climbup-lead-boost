@@ -3,7 +3,7 @@ import { MessageSquare } from "lucide-react";
 
 export const WhatsAppFloatingButton = () => {
   const handleClick = () => {
-    const message = encodeURIComponent("Quero vender mais com campanhas no WhatsApp");
+    const message = encodeURIComponent("Quero ter resultados com a Climb Up");
     const whatsappUrl = `https://wa.me/5551981435937?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };

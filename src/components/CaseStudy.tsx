@@ -49,7 +49,7 @@ export const CaseStudy = () => {
           </div>
         </div>
 
-        <CTAButton className="bg-white text-climb-orange hover:bg-gray-100 font-bold text-lg px-8 py-4">
+        <CTAButton className="bg-white text-climb-orange hover:bg-gray-100 font-bold text-lg px-8 py-4" message="Quero vender mais no WhatsApp com a Climb Up">
           QUERO VENDER MAIS
         </CTAButton>
       </div>
