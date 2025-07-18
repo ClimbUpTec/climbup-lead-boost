@@ -22,7 +22,7 @@ export const CTAButton = ({ children, className, onClick, variant = "primary" }:
       onClick();
     } else {
       const message = encodeURIComponent("Quero vender mais com campanhas no WhatsApp");
-      const whatsappUrl = `https://wa.me/51981435937?text=${message}`;
+      const whatsappUrl = `https://wa.me/5551981435937?text=${message}`;
       window.open(whatsappUrl, '_blank');
     }
   };
