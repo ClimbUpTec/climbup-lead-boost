@@ -31,7 +31,7 @@ export const CTAButton = ({ children, className, onClick, variant = "primary", m
 
   return (
     <Button 
-      className={cn(baseClasses, variantClasses[variant], className)}
+      className={cn(baseClasses, variantClasses[variant], "h-widget-trigger", className)}
       onClick={handleClick}
     >
       {children}
