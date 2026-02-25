@@ -8,28 +8,28 @@ export const Pricing = () => {
   const plans = [
     {
       name: "Essential",
-      price: "R$499,90",
+      price: "",
       target: "Microempresas",
       features: ["02 Usuários", "01 WhatsApp", "Central de Atendimento", "CRM", "Chatbot de Atendimento", "Campanhas manuais"],
       paymentLink: "https://www.asaas.com/c/nvzehyl97a9kq51v"
     },
     {
       name: "Pro",
-      price: "R$699,90", 
+      price: "", 
       target: "Pequenas equipes",
       features: ["04 Usuários", "01 WhatsApp", "Direct Instagram e Messenger", "Tudo do 01 +", "Campanhas automáticas via WhatsApp", "Chatbot de Automação"],
       paymentLink: "https://www.asaas.com/c/v61wtx5rimue05zt"
     },
     {
       name: "Plus+",
-      price: "R$1.299,90",
+      price: "",
       target: "Times de vendas ativos", 
       features: ["08 Usuários", "02 WhatsApps", "Direct Instagram e Messenger", "Tudo do 1 e 2 +", "Carteirização", "Rodízio Automático de Leads"],
       paymentLink: "https://www.asaas.com/c/2sowi9506ygrl6ji"
     },
     {
       name: "Advanced",
-      price: "R$1.999,90",
+      price: "",
       target: "Equipes comerciais estruturadas",
       features: ["16 Usuários", "04 WhatsApps", "Direct Instagram e Messenger", "Tudo do 01, 02 e 03 +", "Automações ilimitadas", "Integrações (Webhook + API)"],
       paymentLink: "https://www.asaas.com/c/ex59s8ja0yuvbb3g"
@@ -47,7 +47,7 @@ export const Pricing = () => {
           Planos e preços
         </h2>
         <p className="font-source-sans text-xl text-climb-eerie">
-          Comece com a Climb Up a partir de <span className="text-climb-orange font-bold">R$499,90/mês</span>
+          Escolha o plano ideal para o seu negócio
         </p>
       </div>
 
@@ -55,7 +55,7 @@ export const Pricing = () => {
         {plans.map((plan, index) => (
           <div key={index} className={`bg-white p-6 rounded-lg shadow-lg flex flex-col ${index === 1 ? 'border-2 border-climb-orange' : ''}`}>
             <h3 className="font-satoshi font-bold text-xl text-climb-gunmetal mb-2">{plan.name}</h3>
-            <div className="text-3xl font-bold text-climb-orange mb-2">{plan.price}</div>
+            {plan.price && <div className="text-3xl font-bold text-climb-orange mb-2">{plan.price}</div>}
             <p className="font-source-sans text-sm text-climb-eerie mb-4">{plan.target}</p>
             <div className="space-y-2 mb-6 flex-grow">
               {plan.features.map((feature, featureIndex) => (
