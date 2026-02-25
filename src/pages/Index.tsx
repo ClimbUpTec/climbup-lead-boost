@@ -12,7 +12,7 @@ import { VideoDemo } from "@/components/VideoDemo";
 import { Comparison } from "@/components/Comparison";
 import { APIConfiguration } from "@/components/APIConfiguration";
 import { Testimonials } from "@/components/Testimonials";
-import { Pricing } from "@/components/Pricing";
+
 import { FinalCTA } from "@/components/FinalCTA";
 import { FAQ } from "@/components/FAQ";
 import { WhatsAppFloatingButton } from "@/components/WhatsAppFloatingButton";
@@ -33,7 +33,7 @@ const Index = () => {
       <Comparison />
       <APIConfiguration />
       <Testimonials />
-      <Pricing />
+      
       <FinalCTA />
       <FAQ />
       <WhatsAppFloatingButton />
